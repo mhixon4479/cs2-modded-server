@@ -5,7 +5,13 @@
 
 # Variables
 user="steam"
+REPO="mavproductions/cs2-modded-server"
 BRANCH="master"
+
+# Check if GIT_REPO is set and not empty
+if [ -n "$GIT_REPO" ]; then
+    REPO="$GIT_REPO"
+fi
 
 # Check if MOD_BRANCH is set and not empty
 if [ -n "$MOD_BRANCH" ]; then
@@ -130,10 +136,10 @@ else
 fi
 
 # Download latest stop script
-curl -s -H "Cache-Control: no-cache" -o "stop.sh" "https://raw.githubusercontent.com/kus/cs2-modded-server/${BRANCH}/stop.sh" && chmod +x stop.sh
+curl -s -H "Cache-Control: no-cache" -o "stop.sh" "https://raw.githubusercontent.com/${REPO}/${BRANCH}/stop.sh" && chmod +x stop.sh
 
 # Download latest start script
-curl -s -H "Cache-Control: no-cache" -o "start.sh" "https://raw.githubusercontent.com/kus/cs2-modded-server/${BRANCH}/start.sh" && chmod +x start.sh
+curl -s -H "Cache-Control: no-cache" -o "start.sh" "https://raw.githubusercontent.com/${REPO}/${BRANCH}/start.sh" && chmod +x start.sh
 
 PUBLIC_IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
 
@@ -209,7 +215,7 @@ fi
 rm -r /home/${user}/cs2/game/csgo/addons
 
 echo "Downloading mod files..."
-wget --quiet https://github.com/kus/cs2-modded-server/archive/${BRANCH}.zip
+wget --quiet https://github.com/${REPO}/archive/${BRANCH}.zip
 unzip -o -qq ${BRANCH}.zip
 # Delete custom_files_example as I use this for my server and as a demo for others and I want it to always reflect git
 rm -r /home/${user}/cs2/custom_files_example/

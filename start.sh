@@ -26,6 +26,7 @@ get_metadata () {
 # Get meta data from GCP and set environment variables
 META_RCON_PASSWORD=$(get_metadata RCON_PASSWORD)
 META_API_KEY=$(get_metadata API_KEY)
+META_GIT_REPO=$(get_metadata GIT_REPO)
 META_MOD_BRANCH=$(get_metadata MOD_BRANCH)
 META_PORT=$(get_metadata PORT)
 META_TICKRATE=$(get_metadata TICKRATE)
@@ -33,6 +34,7 @@ META_MAXPLAYERS=$(get_metadata MAXPLAYERS)
 export RCON_PASSWORD="${META_RCON_PASSWORD:-changeme}"
 export API_KEY="${META_API_KEY:-changeme}"
 export STEAM_ACCOUNT="${STEAM_ACCOUNT:-$(get_metadata STEAM_ACCOUNT)}"
+export GIT_REPO="${META_GIT_REPO:-mavproductions/cs2-modded-server}"
 export MOD_BRANCH="${META_MOD_BRANCH:-master}"
 export SERVER_PASSWORD="${SERVER_PASSWORD:-$(get_metadata SERVER_PASSWORD)}"
 export PORT="${META_PORT:-27015}"
@@ -46,7 +48,13 @@ cd /
 
 # Variables
 user="steam"
+REPO="mavproductions/cs2-modded-server"
 BRANCH="master"
+
+# Check if GIT_REPO is set and not empty
+if [ -n "$GIT_REPO" ]; then
+    REPO="$GIT_REPO"
+fi
 
 # Check if MOD_BRANCH is set and not empty
 if [ -n "$MOD_BRANCH" ]; then
@@ -171,7 +179,7 @@ else
 fi
 
 # Download latest stop script
-curl -s -H "Cache-Control: no-cache" -o "stop.sh" "https://raw.githubusercontent.com/kus/cs2-modded-server/${BRANCH}/stop.sh" && chmod +x stop.sh
+curl -s -H "Cache-Control: no-cache" -o "stop.sh" "https://raw.githubusercontent.com/${REPO}/${BRANCH}/stop.sh" && chmod +x stop.sh
 
 PUBLIC_IP=$(curl -4 ifconfig.me)
 

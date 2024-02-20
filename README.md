@@ -417,6 +417,17 @@ When you join the server you can [change game modes](#changing-game-modes).
 
 <table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/ka_soccer_2009.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3070198374">ka_soccer_2009</a><br><sup><sub>host_workshop_map 3070198374</sub></sup></td></tr></table></td></tr></table>
 
+#### mg_awp
+
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://i.imgur.com/w6GeWig.jpg"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3142070597">awp_bhop_rocket</a><br><sup><sub>host_workshop_map 3142070597</sub></sup></td></tr></table></td></tr></table>
+
+#### mg_aim
+
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://i.imgur.com/Zwvowyz.jpg"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3070260370">aim_map_s2r</a><br><sup><sub>host_workshop_map 3070260370</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://imgur.com/Lz4Wfmp.jpg"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3146122036">freebet_aim_map</a><br><sup><sub>host_workshop_map 3146122036</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://i.imgur.com/vqoqnMq.jpg"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3075996446">aim_deagle</a><br><sup><sub>host_workshop_map 3075996446</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://i.imgur.com/YKpPBrm.jpg"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3086276554">aim_orange_usp</a><br><sup><sub>host_workshop_map 3086276554</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/fy_pool_day.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3070923343">fy_pool_day</a><br><sup><sub>host_workshop_map 3070923343</sub></sup></td></tr></table></td></tr></table>
+
+#### mg_dmMulti
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_mirage.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_mirage<br><sup><sub>changelevel de_mirage</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_inferno.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_inferno<br><sup><sub>changelevel de_inferno</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_vertigo.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_vertigo<br><sup><sub>changelevel de_vertigo</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_dust2.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_dust2<br><sup><sub>changelevel de_dust2</sub></sup></td></tr></table></td></tr></table>
+
 ### How do I add more bots?
 
 By default bots are enabled in deathmatch, gungame, gungame ffa, retakes, scoutsknives and wingman.

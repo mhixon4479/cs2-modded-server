@@ -11,7 +11,7 @@
 ![Ingame RCON mods usage example](https://i.imgur.com/Siv4EQn.png)
 Commands | Description
 --- | --- 
-!rcon exec prac | starts prac mod (run .prac once on the map.)
+!rcon exec prac | starts prac mod
 !rcon exec retake | starts retake mod
 !rcon exec comp | starts 10-man mod (no captain selection yet, need to get on the right teams)
 !rcon exec dm-multicfg | starts deathmatch-multicfg mod

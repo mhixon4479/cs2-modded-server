@@ -32,7 +32,6 @@
 						"mg_gg"				"59"
 						"mg_awp"			"60"
 						"mg_aim"			"61"
-						"mg_dmMulti"		"62"
 					}
 				}
 
@@ -77,6 +76,24 @@
 					"mapgroupsMP"
 					{
 						"mg_dm"		"50"
+					}
+				}
+			}
+		}
+		"Custom"
+		{
+			"gameModes"
+			{
+				"custom"
+				{
+					"maxplayers"			"100"
+					"exec"
+					{
+						"exec" "gamemode_custom_last.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"mg_dmMulti"	"50"
 					}
 				}
 			}
@@ -329,8 +346,10 @@
 			"name"			"mg_aim"
 			"maps"
 			{
-				"workshop/3070549948/aim_map"			""
+				"workshop/3070260370/aim_map_s2r"			""
 				"workshop/3146122036/freebet_aim_map"	""
+				"workshop/3075996446/aim_deagle"		""
+				"workshop/3086276554/aim_orange_usp"	""
 				"workshop/3070923343/fy_pool_day"		""
 			}
 		}

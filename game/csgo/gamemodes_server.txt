@@ -351,6 +351,7 @@
 				"workshop/3075996446/aim_deagle"		""
 				"workshop/3086276554/aim_orange_usp"	""
 				"workshop/3070923343/fy_pool_day"		""
+				"workshop/3157627939/aim_valerastan"	""
 			}
 		}
 		"mg_dmMulti"

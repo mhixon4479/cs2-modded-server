@@ -1,5 +1,5 @@
 ## Player Server Guide
-### [How to Request Admin](#how-to-request-admin) | [Server Usage](#server-usage) | [Edit your autoexec.cfg - How to easily connect to the server](#edit-your-autoexeccfg---how-to-easily-connect-to-the-server) | [Rules](#rules)
+### [How to Request Admin](#how-to-request-admin) | [Server Usage](#server-usage) | [Maps Available](https://github.com/mavproductions/cs2-modded-server?tab=readme-ov-file#what-maps-are-preconfigured-with-each-mode) | [Edit your autoexec.cfg - How to easily connect to the server](#edit-your-autoexeccfg---how-to-easily-connect-to-the-server) | [Rules](#rules)
 
 
 ## How to Request Admin

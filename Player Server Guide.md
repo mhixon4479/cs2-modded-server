@@ -15,7 +15,7 @@ Commands | Description
 !rcon exec retake | starts retake mod
 !rcon exec comp | starts 10-man mod (no captain selection yet, need to get on the right teams)
 !rcon exec dm-multicfg | starts deathmatch-multicfg mod
-!rcon exec aimmap | starts aim_map mode
+!rcon exec aim | starts aim_map mode
 !rcon exec awp | starts awp_map mode
 !rcon exec mods | lists all available mods/modes
 !rcon mp_restartgame 1 | Restarts the round, which fixes some issues.

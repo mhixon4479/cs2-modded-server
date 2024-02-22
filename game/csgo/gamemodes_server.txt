@@ -32,6 +32,8 @@
 						"mg_gg"				"59"
 						"mg_awp"			"60"
 						"mg_aim"			"61"
+						"mg_casual"			"62"
+						"mg_miniMaps"		"63"
 					}
 				}
 
@@ -130,6 +132,7 @@
 				"de_vertigo"		""
 				"workshop/3070212801/de_cbble"		""
 				"workshop/3070596702/de_cache"		""
+				"workshop/3073892687/de_season_d_prefab"		""
 			}
 		}
 		"mg_wingman"
@@ -238,6 +241,7 @@
 				"workshop/3082038560/bhop_cherryblossom"		""
 				"workshop/3088973190/bhop_arcturus"		""
 				"workshop/3095219437/bhop_kiwi_cwfx"		""
+				"workshop/3079959870/bhop_omnitopia"		""
 			}
 		}
 		"mg_kz"
@@ -257,6 +261,7 @@
 				"workshop/3076000218/kz_sxb2_biewan"		""
 				"workshop/3072744536/kz_ggsh"		""
 				"workshop/3072699538/kz_ltt"		""
+				"workshop/3121168339/kz_grotto"		""
 			}
 		}
 		"mg_surf"
@@ -339,6 +344,10 @@
 			"maps"
 			{
 				"workshop/3142070597/awp_bhop_rocket"		""
+				"workshop/3109027085/awp_minecraft"			""
+				"workshop/3088944650/awp_lego_2_winter"		""
+				"workshop/3081154235/awp_creek"				""
+				"workshop/3143106316/awp_two_towers"		""
 			}
 		}
 				"mg_aim"
@@ -352,6 +361,7 @@
 				"workshop/3086276554/aim_orange_usp"	""
 				"workshop/3070923343/fy_pool_day"		""
 				"workshop/3157627939/aim_valerastan"	""
+				"workshop/3138075964/aim_map_3"			""
 			}
 		}
 		"mg_dmMulti"
@@ -363,6 +373,38 @@
 				"de_inferno"		""
 				"de_vertigo"		""
 				"de_dust2"			""
+			}
+		}
+		"mg_casual"
+		{
+			"name"			"mg_casual"
+			"maps"
+			{
+				"cs_italy"			""
+				"cs_office"			""
+				"workshop/3071005299/de_assembly"		""
+				"workshop/3070212801/de_cbble"		""
+				"workshop/3079872050/de_pipeline"		""
+				"workshop/3075706807/de_biome"		""
+				"workshop/3070346180/mp_raid"		""
+				"workshop/3070766070/de_mutiny"		""
+				"workshop/3070594412/cs_assault"		""
+				"workshop/3089953774/cs_militia"		""
+				"workshop/3070960099/de_aztec"		""
+				"workshop/3108513658/de_akiba"		""
+				"workshop/3071818846/de_rats_kitchoon"		""
+				"workshop/3077457651/de_survivor"			""
+				"workshop/3084930277/fy_snow_y0"		""
+				"workshop/3072352643/de_ruins_d_prefab"		""
+			}
+		}
+		"mg_miniMaps"
+		{
+			"name"			"mg_miniMaps"
+			"maps"
+			{
+				"workshop/3099519038/minimirage_cs2port"		""
+				"workshop/3078140567/mini_train"				""
 			}
 		}
 	}

@@ -11,23 +11,24 @@
 ![Ingame RCON mods usage example](https://i.imgur.com/Siv4EQn.png)
 Commands | Description
 --- | --- 
-!rcon exec prac | starts prac mod
-!rcon exec retake | starts retake mod
-!rcon exec comp | starts 10-man mod (no captain selection yet, need to get on the right teams)
-!rcon exec dm-multicfg | starts deathmatch-multicfg mod
-!rcon exec aim | starts aim_map mode
-!rcon exec awp | starts awp_map mode
-!rcon exec mods | lists all available mods/modes
+!rcon exec prac | Starts prac mod
+!rcon exec retake | Starts retake mod
+!rcon exec comp | Starts 10-man mod (no captain selection yet, need to get on the right teams)
+!rcon exec dm-multicfg | Starts deathmatch-multicfg mod
+!rcon exec aim | Starts aim_map mode
+!rcon exec awp | Starts awp_map mode
+!rcon exec mods | Lists all available mods/modes
 !rcon mp_restartgame 1 | Restarts the round, which fixes some issues.
-!map de_nuke | switches to nuke
-.prac | start prac mode (must exec prac first)
-.listnades | shows nades saved for each map
+!map de_nuke | Switches to nuke
+.prac | Start prac mode (must exec prac first)
+.listnades | Shows nades saved for each map
+.global | Toggling global nade save or private for your next saved lineup
 .savenade \<name\> \<optional description\> |  Saves a lineup
 .god | Turns on god mode
-.rethrow | rethrow grenade
+.rethrow | Rethrow grenade
 .ff | Fastforwards 20 seconds(clear util)
-.spawn 1 | moves you to spawn 1 of current team
-.bot | places bot (good for testing spam spots)
+.spawn 1 | Moves you to spawn 1 of current team
+.bot | Places bot (good for testing spam spots)
 !rcon exec bot_add | Adds bot
 !rcon exec bot_kick | Kicks all bots
 

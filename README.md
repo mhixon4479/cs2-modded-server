@@ -1,6 +1,6 @@
 # Counter-Strike 2 (CS2) Modded Dedicated Server
 
-### [Player Server Guide](Player%20Server%20Guide.md) | [Maps Available](#what-maps-are-preconfigured-with-each-mode)
+### [Player Server Guide](Player%20Server%20Guide.md) | [Maps Available](#what-maps-are-preconfigured-with-each-mode) | [Modes Available](#changing-game-modes)
 
 ## About
 
@@ -78,9 +78,9 @@ Getting up and running:
 Mod | Version | Why
 --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1282` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `166` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `169` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
-[CS2 Remove Map Weapons](https://github.com/kus//CS2-Remove-Map-Weapons) | `1.0.0` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
+[CS2 Remove Map Weapons](https://github.com/kus//CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
 [CS2_DamageInfo](https://github.com/K4ryuu/CS2_DamageInfo) | `2.0.3` | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.0` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
 [MapConfigurator](https://github.com/ManifestManah/MapConfigurator)| `1.0.2` | Allows you to quick and easily create unique configuration files for each map on your server.
@@ -89,13 +89,13 @@ Mod | Version | Why
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.2` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.7` | GunGame mode on Counter Strike Sharp
 [CS2-Multi-1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | A CS2 plugin that allows players to fight 1v1 in ranked arenas.
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `1.3.27` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
+[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `1.3.29` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
 [CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `1.2.16` | Advanced weapon allocation for B3none/cs2-retakes
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.0` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
-[CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.0.4` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
+[CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.0.7` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
 
 ## Custom files
 

@@ -1,5 +1,5 @@
 ## Player Server Guide
-### [How to Request Admin](#how-to-request-admin) | [Server Usage](#server-usage) | [Maps Available](https://github.com/mavproductions/cs2-modded-server?tab=readme-ov-file#what-maps-are-preconfigured-with-each-mode) | [Edit your autoexec.cfg - How to easily connect to the server](#edit-your-autoexeccfg---how-to-easily-connect-to-the-server) | [Rules](#rules)
+### [How to Request Admin](#how-to-request-admin) | [Server Usage](#server-usage) | [Maps Available](https://github.com/mavproductions/cs2-modded-server?tab=readme-ov-file#what-maps-are-preconfigured-with-each-mode) | [Modes Available](https://github.com/mavproductions/cs2-modded-server/tree/master?tab=readme-ov-file#changing-game-modes) | [Edit your autoexec.cfg - How to easily connect to the server](#edit-your-autoexeccfg---how-to-easily-connect-to-the-server) | [Rules](#rules) | [Notes](#notes)
 
 
 ## How to Request Admin
@@ -52,3 +52,9 @@ Fill in the correct IP/port/password provided.
     * If someone joins the server - be courteous and welcoming.
         * If a 10-man is happening, we operate on the GTFO rule - though the server should block people from joining if a 10-man is ongoing.
 * Zero tolerance for cheating - Players caught with valid proof will be permanently banned. 
+
+## Notes
+* Be mindful when using custom maps, that file sizes vary. While I try and find the most optimized
+versions of maps (100MB or lower) some maps can be a big as 2GB. This is a new game engine, and some 
+mappers are still learning. Some maps also just simply have a higher asset complexity.
+    * You can find the server's downloaded maps in the `\Steam\steamapps\workshop\content\730\` directory.

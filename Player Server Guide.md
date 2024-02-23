@@ -22,7 +22,7 @@ Commands | Description
 !map de_nuke | Switches to nuke
 .prac | Start prac mode (must exec prac first)
 .listnades | Shows nades saved for each map
-.global | Toggling global nade save or private for your next saved lineup
+.globalnades | Toggling global nade save or private for your next saved lineup
 .savenade \<name\> \<optional description\> |  Saves a lineup
 .god | Turns on god mode
 .rethrow | Rethrow grenade

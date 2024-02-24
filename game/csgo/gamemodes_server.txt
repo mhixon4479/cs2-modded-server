@@ -277,6 +277,7 @@
 				"workshop/3082548297/surf_rookie"		""
 				"workshop/3098972556/surf_benevolent"		""
 				"workshop/3088413071/surf_ace"		""
+				"workshop/3165517928/surf_astra"	""
 			}
 		}
 		"mg_minigames"

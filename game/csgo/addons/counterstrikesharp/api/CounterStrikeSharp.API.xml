@@ -870,6 +870,21 @@
             <param name="usage">If the command fails, this string is printed to the caller to show the CommandUtils intended usage.</param>
             <param name="whoCanExecute">Restricts the command so it can only be executed by players, the server console, or both (see CommandUsage).</param>
         </member>
+        <member name="P:CounterStrikeSharp.API.Modules.Commands.CommandInfo.CallingContext">
+            <summary>
+            Whether or not the command was sent via Console or Chat.
+            </summary>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Commands.CommandInfo.ReplyToCommand(System.String)">
+            <summary>
+            Replies to the command with a message.
+            <remarks>
+            If the command was sent via Chat, <see cref="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToChat(System.String)"/> is used, otherwise <see cref="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToConsole(System.String)"/> is used.
+            If sent from the server console/RCON, <see cref="M:CounterStrikeSharp.API.Server.PrintToConsole(System.String)"/> is used.
+            </remarks>
+            </summary>
+            <param name="message">Message to send</param>
+        </member>
         <member name="P:CounterStrikeSharp.API.Modules.Cvars.ConVar.Type">
             <summary>
             The underlying data type of the ConVar.

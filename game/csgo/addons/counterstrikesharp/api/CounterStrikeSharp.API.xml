@@ -1052,6 +1052,17 @@
             Development universe.
             </summary>
         </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Extensions.PlayerExtensions.GetChatColor(CounterStrikeSharp.API.Core.CCSPlayerController)">
+            <summary>
+            <inheritdoc cref="M:CounterStrikeSharp.API.Modules.Utils.ChatColors.ForPlayer(CounterStrikeSharp.API.Core.CCSPlayerController)"/>
+            </summary>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Extensions.TeamExtensions.GetChatColor(CounterStrikeSharp.API.Modules.Utils.CsTeam)">
+            <summary>
+            <inheritdoc cref="M:CounterStrikeSharp.API.Modules.Utils.ChatColors.ForTeam(CounterStrikeSharp.API.Modules.Utils.CsTeam)"/>
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:CounterStrikeSharp.API.Modules.Memory.Schema.GetString(System.IntPtr,System.String,System.String)">
             <summary>
             Reads a string from the specified pointer, class name, and member name.
@@ -1127,6 +1138,20 @@
             <summary>
             Roll of angle
             </summary>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Utils.ChatColors.ForTeam(CounterStrikeSharp.API.Modules.Utils.CsTeam)">
+            <summary>
+            Returns a chat color based on a team.
+            <remarks>Blue for CT, Yellow for T, LightPurple for Spectator</remarks>
+            </summary>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Utils.ChatColors.ForPlayer(CounterStrikeSharp.API.Core.CCSPlayerController)">
+            <summary>
+            Returns a chat color for a player based on their team.
+            <remarks>Blue for CT, Yellow for T, LightPurple for Spectator</remarks>
+            </summary>
+            <exception cref="T:System.Exception"></exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Modules.Utils.EnumUtils.GetEnumMemberAttribute``1(System.Enum)">
             <summary>

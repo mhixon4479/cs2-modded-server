@@ -96,6 +96,7 @@ Mod | Version | Why
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.0` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.0.7` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
+[CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.0.3` | Two-way CS2 Server chatting and monitoring with active players [How?](#enable-cs2-discordchatsync)
 
 ## Custom files
 
@@ -554,13 +555,21 @@ First open terminal and `cd` into the folder where you unzipped the zips i.e.: `
 
 `rsync -rhavz --exclude "._*" --exclude ".DS_Store" --partial --progress --stats ./addons/ /Users/kus/dev/personal/counter-strike/cs2-modded-server/game/csgo/addons/`
 
-### Enable advertisements
+### Enable Advertisements
 
-If you want to enable a whitelist on your server load the plugin by putting this `css_plugins load "plugins/disabled/Advertisement/Advertisement.dll"` in one of your `.cfg` files.
+If you want to enable Advertisements on your server load the plugin by putting this `css_plugins load "plugins/disabled/Advertisement/Advertisement.dll"` in one of your `.cfg` files.
 
 If you want it to load on every mod on your server, you can put it in your `/custom_files/cfg/custom_all.cfg` file.
 
 The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` which you would put in `/custom_files/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` so it is not overwritten.
+
+### Enable CS2-DiscordChatSync
+
+If you want to enable CS2-DiscordChatSync on your server, please follow the [instructions](https://github.com/imi-tat0r/CS2-DiscordChatSync/?tab=readme-ov-file#installation) at imi-tat0r's repo.
+
+After, move the plugin out of the `addons/counterstrikesharp/plugins/disabled` folder and into plugins folder.
+
+Restart your server.
 
 ### Enable Whitelist so only a list of people can play
 
@@ -569,35 +578,6 @@ If you want to enable a whitelist on your server load the plugin by putting this
 If you want it to load on every mod on your server, you can put it in your `/custom_files/cfg/custom_all.cfg` file.
 
 The whitelist file is located at `/game/csgo/addons/counterstrikesharp/plugins/disabled/WhiteList/whitelist.txt` which you would put in `/custom_files/addons/counterstrikesharp/plugins/disabled/WhiteList/whitelist.txt` so it is not overwritten.
-
-## Changelog
-
-### 2024-02-14 v1.0.23
-
-- Gave our Windows users some love.
-  - Fixed Windows server not loading CounterStrikeSharp (Thanks [@ALegitCookie](https://www.github.com/ALegitCookie))
-  - Updated Windows install instructions to make them clearer
-  - Added error checking
-  - Made `win.bat` automatically patch `gameinfo.gi` (this makes Metamod:Source load)
-- Added a [bash script](https://github.com/kus/cs2-modded-server/blob/master/scripts/check-updates.sh) to check for updates for all mods in this repo to make keeping up-to-date easier
-- FIXED: CS2Rcon was not being reloaded when switching mods after MatchZy has been loaded (Thanks [@mavproductions](https://www.github.com/mavproductions))
-- UPDATED: CS2 Retakes Allocator to `v1.2.16`
-- UPDATED: CS2 Advertisement to `v1.0.6.7`
-- UPDATED: CounterStrikeSharp to `v166`
-
-### 2024-02-11 v1.0.22
-
-- Disable GOTV for 1v1 [#50](https://github.com/kus/cs2-modded-server/issues/50) (Thanks [@pnallinger](https://www.github.com/pnallinger))
-- Turn `sv_cheats` on whilst setting all game mode settings then turn off. This will also force cheats to be off if it was turned on then the mode was changed. (Thanks [@mavproductions](https://www.github.com/mavproductions))
-- Delete MatchZy default `savednades.json` so it won't overwrite your own saved nades [#38](https://github.com/kus/cs2-modded-server/discussions/38) (Thanks [@mavproductions](https://www.github.com/mavproductions))
-- ADDED: Arms Race (default CS2 mode)
-- ADDED: CS2 Deathmatch Multi CFG v1.0.4 (Thanks [@mavproductions](https://www.github.com/mavproductions))
-- ADDED: CS2 Advertisement v1.0.6.6 [How to use?](#enable-advertisements) (Thanks [@mavproductions](https://www.github.com/mavproductions))
-- UPDATED: CS2 Retakes Allocator to v1.2.15
-- UPDATED: CS2 Retakes to v1.3.27
-- UPDATED: SharpTimer to v0.2.1
-- UPDATED: MatchZy to v0.7.0
-- UPDATED: CounterStrikeSharp to v164
 
 ## License
 

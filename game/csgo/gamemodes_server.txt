@@ -130,6 +130,7 @@
 				"de_nuke"			""
 				"de_overpass"		""
 				"de_vertigo"		""
+				"workshop/3121217565/de_thera"	""
 				"workshop/3070212801/de_cbble"		""
 				"workshop/3070596702/de_cache"		""
 				"workshop/3073892687/de_season_d_prefab"		""

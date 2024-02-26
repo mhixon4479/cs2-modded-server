@@ -105,6 +105,17 @@
             When enabled, plugins are automatically reloaded when their .dll file is updated.
             </summary>
         </member>
+        <member name="T:CounterStrikeSharp.API.Core.FunctionLifetime">
+            <summary>
+            Describes the lifetime of a function reference.
+            </summary>
+        </member>
+        <member name="F:CounterStrikeSharp.API.Core.FunctionLifetime.SingleUse">
+            <summary>Delegate will be removed after the first invocation.</summary> 
+        </member>
+        <member name="F:CounterStrikeSharp.API.Core.FunctionLifetime.Permanent">
+            <summary>Delegate will remain in memory for the lifetime of the application.</summary>
+        </member>
         <member name="T:CounterStrikeSharp.API.Core.HookMode">
             <summary>
             Specifies the hook mode.

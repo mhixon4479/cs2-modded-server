@@ -53,6 +53,13 @@
             </summary>
             <param name="instance">The instance of the object where the event handlers are defined.</param>
         </member>
+        <member name="M:CounterStrikeSharp.API.Core.BasePlugin.RegisterFakeConVars(System.Object)">
+            <summary>
+            Used to bind a fake ConVar to a plugin command. Only required for ConVars that are not public properties of the plugin class.
+            </summary>
+            <param name="convar"></param>
+            <typeparam name="T"></typeparam>
+        </member>
         <member name="T:CounterStrikeSharp.API.Core.Commands.PluginCommandManagerDecorator">
             <summary>
             Decorator for <see cref="T:CounterStrikeSharp.API.Core.Commands.ICommandManager"/> that tracks registered commands and removes them when disposed.

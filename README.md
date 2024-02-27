@@ -84,7 +84,8 @@ Mod | Version | Why
 [CS2_DamageInfo](https://github.com/K4ryuu/CS2_DamageInfo) | `2.0.3` | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.0` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
 [MapConfigurator](https://github.com/ManifestManah/MapConfigurator)| `1.0.2` | Allows you to quick and easily create unique configuration files for each map on your server.
-[SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/)| `0.1.2` | Adds basic administrator functions
+[CS2-SimpleAdmin](https://github.com/daffyyyy/CS2-SimpleAdmin)| `Build 111` | Adds basic administrator functions
+[CS2-Tags](https://github.com/daffyyyy/CS2-Tags)| `Build 36` | Adds basic administrator functions
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | This is a rudimentary implementation of a RCON plugin for CS2 using CounterStrikeSharp as RCON does not work whilst connected to the server
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.2` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.8` | GunGame mode on Counter Strike Sharp
@@ -96,7 +97,7 @@ Mod | Version | Why
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.0` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.0.7` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
-[CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.0.3` | Two-way CS2 Server chatting and monitoring with active players [How?](#enable-cs2-discordchatsync)
+[CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.1.0` | Two-way CS2 Server chatting and monitoring with active players [How?](#enable-cs2-discordchatsync)
 
 ## Custom files
 
@@ -567,9 +568,7 @@ The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/disa
 
 If you want to enable CS2-DiscordChatSync on your server, please follow the [instructions](https://github.com/imi-tat0r/CS2-DiscordChatSync/?tab=readme-ov-file#installation) at imi-tat0r's repo.
 
-After, move the plugin out of the `addons/counterstrikesharp/plugins/disabled` folder and into plugins folder.
-
-Restart your server.
+After that, add `css_plugins load "plugins/disabled/DiscordChat/DiscordChat.dll"` to your `/custom_files/cfg/custom_all.cfg` file.
 
 ### Enable Whitelist so only a list of people can play
 

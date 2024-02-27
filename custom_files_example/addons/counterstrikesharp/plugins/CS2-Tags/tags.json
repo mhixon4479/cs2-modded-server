@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "#css/admin": {
+      "prefix": "{RED}[ADMIN]",
+      "nick_color": "{RED}",
+      "message_color": "{GOLD}",
+      "scoreboard": "[ADMIN]"
+    },
+    "@css/chat": {
+      "prefix": "{GREEN}[CHAT]",
+      "nick_color": "{RED}",
+      "message_color": "{GOLD}",
+      "scoreboard": "[CHAT]"
+    },
+    "76561197961430531": {
+      "prefix": "{RED}[ADMIN]",
+      "nick_color": "{RED}",
+      "message_color": "{GOLD}",
+      "scoreboard": "[ADMIN]"
+    },
+    "everyone": {
+      "team_chat": true,
+      "prefix": "{Grey}[Player]",
+      "nick_color": "",
+      "message_color": "",
+      "scoreboard": "[Player]"
+    }
+  }
+}

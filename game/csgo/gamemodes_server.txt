@@ -359,7 +359,7 @@
 			{
 				"workshop/3070260370/aim_map_s2r"			""
 				"workshop/3146122036/freebet_aim_map"	""
-				"workshop/3075996446/aim_deagle"		""
+				"workshop/3166913688/aim_deagle"		""
 				"workshop/3086276554/aim_orange_usp"	""
 				"workshop/3070923343/fy_pool_day"		""
 				"workshop/3157627939/aim_valerastan"	""

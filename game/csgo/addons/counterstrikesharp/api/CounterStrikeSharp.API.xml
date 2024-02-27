@@ -368,6 +368,12 @@
             </summary>
             <param name="simulating"><see langword="true"/> if simulating, <see langword="false"/> otherwise</param>
         </member>
+        <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.Teleport(CounterStrikeSharp.API.Modules.Utils.Vector,CounterStrikeSharp.API.Modules.Utils.QAngle,CounterStrikeSharp.API.Modules.Utils.Vector)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.DispatchSpawn">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
         <member name="P:CounterStrikeSharp.API.Core.CBaseEntity.AbsOrigin">
             <summary>
             Shorthand for accessing an entity's CBodyComponent?.SceneNode?.AbsOrigin;
@@ -377,6 +383,13 @@
             <summary>
             Shorthand for accessing an entity's CBodyComponent?.SceneNode?.AbsRotation;
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CBaseModelEntity.SetModel(System.String)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CBasePlayerController.SetPawn(CounterStrikeSharp.API.Core.CBasePlayerPawn)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CBasePlayerPawn.CommitSuicide(System.Boolean,System.Boolean)">
             <summary>
@@ -384,27 +397,46 @@
             </summary>
             <param name="explode"></param>
             <param name="force"></param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CBasePlayerPawn.RemovePlayerItem(CounterStrikeSharp.API.Core.CBasePlayerWeapon)">
             <summary>
             Remove Player Item
             </summary>
             <param name="weapon"></param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSGameRules.TerminateRound(System.Single,CounterStrikeSharp.API.Modules.Entities.Constants.RoundEndReason)">
             <summary>
             Terminate the round with the given delay and reason.
             </summary>
         </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.GiveNamedItem(System.String)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToConsole(System.String)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToChat(System.String)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToCenter(System.String)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToCenterHtml(System.String,System.Int32)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.DropActiveWeapon">
             <summary>
             Drops the active player weapon on the ground.
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.RemoveWeapons">
             <summary>
             Removes every weapon from the player.
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.CommitSuicide(System.Boolean,System.Boolean)">
             <summary>
@@ -412,17 +444,20 @@
             </summary>
             <param name="explode"></param>
             <param name="force"></param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.Respawn">
             <summary>
             Respawn player
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.SwitchTeam(CounterStrikeSharp.API.Modules.Utils.CsTeam)">
             <summary>
             Forcibly switches the team of the player, the player will remain alive and keep their weapons.
             </summary>
             <param name="team">The team to switch to</param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.ChangeTeam(CounterStrikeSharp.API.Modules.Utils.CsTeam)">
             <summary>
@@ -432,6 +467,7 @@
             </remarks>
             </summary>
             <param name="team">The team to change to</param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.GetConVarValue(System.String)">
             <summary>
@@ -439,6 +475,7 @@
             </summary>
             <param name="conVar">Name of the convar to retrieve</param>
             <returns>ConVar string value</returns>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.SetFakeClientConVar(System.String,System.String)">
             <summary>
@@ -446,6 +483,7 @@
             </summary>
             <param name="conVar">Console variable name</param>
             <param name="value">String value to set</param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
             <exception cref="T:System.InvalidOperationException">Player is not a bot</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.SetFakeClientConVar(CounterStrikeSharp.API.Modules.Cvars.ConVar,System.String)">
@@ -466,6 +504,7 @@
             Note: Only works for some commands, marked with the FCVAR_CLIENT_CAN_EXECUTE flag (not many).
             </summary>
             <param name="command"></param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.ExecuteClientCommandFromServer(System.String)">
             <summary>
@@ -473,6 +512,7 @@
             <remarks>Works with server commands like `kill`, `explode`, `noclip`, etc. </remarks>
             </summary>
             <param name="command"></param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.SetListenOverride(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.ListenOverride)">
             <summary>
@@ -480,22 +520,29 @@
             </summary>
             <param name="sender">Player talking in the voice chat</param>
             <param name="override">Whether the talker should be heard</param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.GetListenOverride(CounterStrikeSharp.API.Core.CCSPlayerController)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="P:CounterStrikeSharp.API.Core.CCSPlayerController.AuthorizedSteamID">
             <summary>
             Returns the authorized SteamID of this user which has been validated with the SteamAPI.
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="P:CounterStrikeSharp.API.Core.CCSPlayerController.IpAddress">
             <summary>
             Returns the IP address (and possibly port) of this player.
             <remarks>Returns 127.0.0.1 if the player is a bot.</remarks>
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="P:CounterStrikeSharp.API.Core.CCSPlayerController.VoiceFlags">
             <summary>
             Determines how the player interacts with voice chat.
             </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerPawn.Respawn">
             <summary>
@@ -506,11 +553,13 @@
             <summary>
             Drops the active player weapon on the ground.
             </summary>
+            <exception cref="T:System.InvalidOperationException">ItemServices points to null</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayer_ItemServices.RemoveWeapons">
             <summary>
             Removes every weapon from the player.
             </summary>
+            <exception cref="T:System.InvalidOperationException">ItemServices points to null</exception>
         </member>
         <member name="P:CounterStrikeSharp.API.Core.CEntityInstance.IsValid">
             <summary>
@@ -531,11 +580,13 @@
             <param name="caller">Entity that is sending the event, <see langword="null"/> for no entity</param>
             <param name="value">String variant value to send with the event</param>
             <param name="outputId">Unknown, defaults to 0</param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CGameSceneNode.GetSkeletonInstance">
             <summary>
             Gets the <see cref="T:CounterStrikeSharp.API.Core.CSkeletonInstance"/> instance from the node.
             </summary>
+            <exception cref="T:System.InvalidOperationException">GameSceneNode points to null</exception>
         </member>
         <member name="T:CounterStrikeSharp.API.Core.CVariant">
             <summary>
@@ -1302,6 +1353,7 @@
             <param name="className" example="CBaseEntity">Schema field class name</param>
             <param name="fieldName" example="m_iHealth">Schema field name</param>
             <param name="extraOffset">Any additional offset to the schema field</param>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
     </members>
 </doc>

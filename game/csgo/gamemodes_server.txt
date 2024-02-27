@@ -349,7 +349,7 @@
 				"workshop/3109027085/awp_minecraft"			""
 				"workshop/3088944650/awp_lego_2_winter"		""
 				"workshop/3081154235/awp_creek"				""
-				"workshop/3143106316/awp_two_towers"		""
+				"workshop/3166593524/awp_japan_neon_cs"		""
 			}
 		}
 				"mg_aim"

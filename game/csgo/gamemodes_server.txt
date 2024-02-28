@@ -364,6 +364,9 @@
 				"workshop/3070923343/fy_pool_day"		""
 				"workshop/3157627939/aim_valerastan"	""
 				"workshop/3138075964/aim_map_3"			""
+				"workshop/3165438553/aim_deaglepark"	""
+				"workshop/3090340064/aim_ancient"		""
+				"workshop/3163827658/aim_refrag"		""
 			}
 		}
 		"mg_dmMulti"

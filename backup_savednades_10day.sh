@@ -10,6 +10,7 @@ backup_dir="/home/steam/cs2/[savednades.json_backups]"
 timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 backup_fileName="savednades_$timestamp.json"
 user="steam"
+BACKUP_DAYS="${BACKUP_DAYS:-10}"
 
 mkdir -p "$backup_dir"
 
@@ -33,7 +34,7 @@ else
     echo -e "#############################################\n"
 fi
 
-find "$backup_dir" -type f -name "savednades_*.json" -mtime +10 -delete
+find "$backup_dir" -type f -name "savednades_*.json" -mtime +$BACKUP_DAYS -delete
 
 # Add to a cron job
 # 1) crontab -e

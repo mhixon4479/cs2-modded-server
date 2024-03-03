@@ -7,6 +7,7 @@
 user="steam"
 REPO="mavproductions/cs2-modded-server"
 BRANCH="master"
+WSCOLLECTION="3172398734"
 
 # Check if GIT_REPO is set and not empty
 if [ -n "$GIT_REPO" ]; then
@@ -16,6 +17,11 @@ fi
 # Check if MOD_BRANCH is set and not empty
 if [ -n "$MOD_BRANCH" ]; then
     BRANCH="$MOD_BRANCH"
+fi
+
+# Check if WS_COLLECTION is set and not empty
+if [ -n "$WS_COLLECTION" ]; then
+    WSCOLLECTION="$WS_COLLECTION"
 fi
 
 CUSTOM_FILES="${CUSTOM_FOLDER:-custom_files}"
@@ -291,6 +297,7 @@ echo ./game/bin/linuxsteamrt64/cs2 \
     -maxplayers $MAXPLAYERS \
     -authkey $API_KEY \
 	+sv_setsteamaccount $STEAM_ACCOUNT \
+	+host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
     +mapgroup mg_active
@@ -306,6 +313,7 @@ sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
     -maxplayers $MAXPLAYERS \
     -authkey $API_KEY \
 	+sv_setsteamaccount $STEAM_ACCOUNT \
+	+host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
     +mapgroup mg_active

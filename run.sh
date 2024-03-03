@@ -6,6 +6,7 @@
 
 user="steam"
 PUBLIC_IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
+WS_COLLECTION="3172398734"
 
 # 32 or 64 bit Operating System
 # If BITS environment variable is not set, try determine it
@@ -56,6 +57,7 @@ echo ./game/bin/linuxsteamrt64/cs2 \
     -maxplayers $MAXPLAYERS \
     -authkey $API_KEY \
     +sv_setsteamaccount $STEAM_ACCOUNT \
+    +host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
     +mapgroup mg_active
@@ -71,6 +73,7 @@ sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
     -maxplayers $MAXPLAYERS \
     -authkey $API_KEY \
     +sv_setsteamaccount $STEAM_ACCOUNT \
+    +host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
     +mapgroup mg_active

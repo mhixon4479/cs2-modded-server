@@ -7,7 +7,7 @@
 user="steam"
 REPO="mavproductions/cs2-modded-server"
 BRANCH="master"
-WSCOLLECTION="3172398734"
+WSCOLLECTION="3173141529"
 
 # Check if GIT_REPO is set and not empty
 if [ -n "$GIT_REPO" ]; then

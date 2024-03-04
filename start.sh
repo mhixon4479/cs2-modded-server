@@ -37,7 +37,7 @@ export API_KEY="${META_API_KEY:-changeme}"
 export STEAM_ACCOUNT="${STEAM_ACCOUNT:-$(get_metadata STEAM_ACCOUNT)}"
 export GIT_REPO="${META_GIT_REPO:-mavproductions/cs2-modded-server}"
 export MOD_BRANCH="${META_MOD_BRANCH:-master}"
-export WS_COLLECTION="${META_WS_COLLECTION:-3172398734}"
+export WS_COLLECTION="${META_WS_COLLECTION:-3173141529}"
 export SERVER_PASSWORD="${SERVER_PASSWORD:-$(get_metadata SERVER_PASSWORD)}"
 export PORT="${META_PORT:-27015}"
 export TICKRATE="${META_TICKRATE:-128}"
@@ -52,7 +52,7 @@ cd /
 user="steam"
 REPO="mavproductions/cs2-modded-server"
 BRANCH="master"
-WS_COLLECTION="3172398734"
+WS_COLLECTION="3173141529"
 
 # Check if GIT_REPO is set and not empty
 if [ -n "$GIT_REPO" ]; then

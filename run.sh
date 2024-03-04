@@ -6,7 +6,7 @@
 
 user="steam"
 PUBLIC_IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
-WS_COLLECTION="3172398734"
+WS_COLLECTION="3173141529"
 
 # 32 or 64 bit Operating System
 # If BITS environment variable is not set, try determine it

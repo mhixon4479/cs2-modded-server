@@ -180,6 +180,12 @@
             e.g. /game/csgo/addons/counterstrikesharp/plugins
             </summary>
         </member>
+        <member name="P:CounterStrikeSharp.API.Core.Hosting.IScriptHostConfiguration.SharedPath">
+            <summary>
+            Gets the absolute path to the directory that contains CounterStrikeSharp plugin shared APIS.
+            e.g. /game/csgo/addons/counterstrikesharp/shared
+            </summary>
+        </member>
         <member name="P:CounterStrikeSharp.API.Core.Hosting.IScriptHostConfiguration.ConfigsPath">
             <summary>
             Gets the absolute path to the directory that contains CounterStrikeSharp configs.
@@ -218,6 +224,14 @@
             Will be called by CounterStrikeSharp on plugin unload. In this method the plugin should cleanup any extra resources.
             Event handlers, listeners etc. will automatically be deregistered.
             </summary>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.IPlugin.OnAllPluginsLoaded(System.Boolean)">
+            <summary>
+            Will be called by CounterStrikeSharp after all plugins have been loaded.
+            This will also be called for convenience after a reload or a late l oad, so that you don't have to handle
+            re-wiring everything.
+            </summary>
+            <param name="hotReload"></param>
         </member>
         <member name="T:CounterStrikeSharp.API.Core.IPluginConfig`1">
             <summary>
@@ -367,6 +381,12 @@
             This seems to be called even when the server is hibernating.
             </summary>
             <param name="simulating"><see langword="true"/> if simulating, <see langword="false"/> otherwise</param>
+        </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.OnServerPrecacheResources">
+            <summary>
+            Called when the server precaching resources (only when initial startup / changing map).
+            </summary>
+            <param name="manifest">Resource Manifest</param>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.Teleport(CounterStrikeSharp.API.Modules.Utils.Vector,CounterStrikeSharp.API.Modules.Utils.QAngle,CounterStrikeSharp.API.Modules.Utils.Vector)">
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>

@@ -8,14 +8,14 @@
     ".NETCoreApp,Version=v7.0": {
       "RetakesAllocator/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.147",
+          "CounterStrikeSharp.API": "1.0.179",
           "RetakesAllocatorCore": "1.0.0"
         },
         "runtime": {
           "RetakesAllocator.dll": {}
         }
       },
-      "CounterStrikeSharp.API/1.0.147": {
+      "CounterStrikeSharp.API/1.0.179": {
         "dependencies": {
           "McMaster.NETCore.Plugins": "1.4.0",
           "Microsoft.CSharp": "4.7.0",
@@ -32,8 +32,8 @@
         },
         "runtime": {
           "lib/net7.0/CounterStrikeSharp.API.dll": {
-            "assemblyVersion": "1.0.147.0",
-            "fileVersion": "1.0.147.0"
+            "assemblyVersion": "1.0.179.0",
+            "fileVersion": "1.0.179.0"
           }
         }
       },
@@ -755,7 +755,7 @@
       },
       "RetakesAllocatorCore/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.147",
+          "CounterStrikeSharp.API": "1.0.179",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.14",
           "MySqlConnector": "2.3.4",
@@ -774,12 +774,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CounterStrikeSharp.API/1.0.147": {
+    "CounterStrikeSharp.API/1.0.179": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-16v1yZR5+r7S5fQ1Lv7AIW8O59PskpXM9/GixjGHPcWO4y1rouDsrAZf7Q+DGSuKmUuLLMg/rCHhsnqEshaKrg==",
-      "path": "counterstrikesharp.api/1.0.147",
-      "hashPath": "counterstrikesharp.api.1.0.147.nupkg.sha512"
+      "sha512": "sha512-6A3zseiTNUp1fhafSRtvOeOGhiW1mjQNG6PWC3eKbwMfM/QatnIGZonI5umCUCqowA/TXKQy/JPnwknY4ATmHQ==",
+      "path": "counterstrikesharp.api/1.0.179",
+      "hashPath": "counterstrikesharp.api.1.0.179.nupkg.sha512"
     },
     "McMaster.NETCore.Plugins/1.4.0": {
       "type": "package",

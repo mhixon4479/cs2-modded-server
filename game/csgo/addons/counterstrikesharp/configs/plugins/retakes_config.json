@@ -1,0 +1,15 @@
+{
+  "Version": 6,
+  "MaxPlayers": 9,
+  "TerroristRatio": 0.45,
+  "RoundsToScramble": 5,
+  "IsScrambleEnabled": true,
+  "EnableFallbackAllocation": false,
+  "EnableBombsiteAnnouncementVoices": false,
+  "EnableBombsiteAnnouncementCenter": false,
+  "ShouldBreakBreakables": false,
+  "ShouldOpenDoors": false,
+  "IsAutoPlantEnabled": true,
+  "QueuePriorityFlag": "@css/vip",
+  "IsDebugMode": false
+}

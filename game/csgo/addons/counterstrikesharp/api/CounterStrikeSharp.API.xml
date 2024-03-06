@@ -121,7 +121,23 @@
             <summary>Delegate will be removed after the first invocation.</summary> 
         </member>
         <member name="F:CounterStrikeSharp.API.Core.FunctionLifetime.Permanent">
-            <summary>Delegate will remain in memory for the lifetime of the application.</summary>
+            <summary>Delegate will remain in memory for the lifetime of the application (or until <see cref="M:CounterStrikeSharp.API.Core.FunctionReference.Remove(System.Int32)"/> is called).</summary>
+        </member>
+        <member name="T:CounterStrikeSharp.API.Core.FunctionReference">
+            <summary>
+            Represents a reference to a function that can be called from native code.
+            </summary>
+        </member>
+        <member name="P:CounterStrikeSharp.API.Core.FunctionReference.Lifetime">
+            <summary>
+            <inheritdoc cref="T:CounterStrikeSharp.API.Core.FunctionLifetime"/>
+            </summary>
+        </member>
+        <member name="P:CounterStrikeSharp.API.Core.FunctionReference.CompletionTask">
+            <summary>
+            For <see cref="F:CounterStrikeSharp.API.Core.FunctionLifetime.SingleUse"/> function references, this task will complete when
+            the function has finished invoking.
+            </summary>
         </member>
         <member name="T:CounterStrikeSharp.API.Core.HookMode">
             <summary>
@@ -1337,10 +1353,22 @@
         <member name="F:CounterStrikeSharp.API.PlayerButtons.Attack3">
             grenade 2 
         </member>
+        <member name="M:CounterStrikeSharp.API.Server.NextFrameAsync(System.Action)">
+            <summary>
+            <inheritdoc cref="M:CounterStrikeSharp.API.Server.NextFrame(System.Action)"/>
+            Returns Task that completes once the synchronous task has been completed.
+            </summary>
+        </member>
         <member name="M:CounterStrikeSharp.API.Server.NextFrame(System.Action)">
             <summary>
             Queue a task to be executed on the next game frame.
             <remarks>Does not execute if the server is hibernating.</remarks>
+            </summary>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Server.NextWorldUpdateAsync(System.Action)">
+            <summary>
+            <inheritdoc cref="M:CounterStrikeSharp.API.Server.NextWorldUpdate(System.Action)"/>
+            Returns Task that completes once the synchronous task has been completed.
             </summary>
         </member>
         <member name="M:CounterStrikeSharp.API.Server.NextWorldUpdate(System.Action)">

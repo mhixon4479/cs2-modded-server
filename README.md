@@ -93,12 +93,13 @@ Mod | Version | Why
 [CS2 Retakes](https://github.com/B3none/cs2-retakes)| `1.4.0` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
 [CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `1.4.0` | Advanced weapon allocation for B3none/cs2-retakes
-[CS2 BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 7` | Graphical Bombsite Announcer using Center HUD image capability.
+[CS2 BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 10` | Graphical Bombsite Announcer using Center HUD image capability.
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.1` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.0.8` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
 [CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.1.1` | CS2 Server chatting, monitoring, and RCON administrating via Discord. [How?](#enable-cs2-discordchatsync)
+[CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.6` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 
 ## Custom files
 

@@ -6,7 +6,7 @@
   "IsScrambleEnabled": true,
   "EnableFallbackAllocation": false,
   "EnableBombsiteAnnouncementVoices": true,
-  "EnableBombsiteAnnouncementCenter": true,
+  "EnableBombsiteAnnouncementCenter": false,
   "ShouldBreakBreakables": false,
   "ShouldOpenDoors": false,
   "IsAutoPlantEnabled": true,

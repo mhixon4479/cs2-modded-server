@@ -1157,6 +1157,12 @@
             Development universe.
             </summary>
         </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Events.GameEvent.Free">
+            <summary>
+            Used to manually free the event.
+            <remarks>If <see cref="M:CounterStrikeSharp.API.Modules.Events.GameEvent.FireEvent(System.Boolean)"/> is called, Free will be called automatically.</remarks>
+            </summary>
+        </member>
         <member name="M:CounterStrikeSharp.API.Modules.Extensions.PlayerExtensions.GetChatColor(CounterStrikeSharp.API.Core.CCSPlayerController)">
             <summary>
             <inheritdoc cref="M:CounterStrikeSharp.API.Modules.Utils.ChatColors.ForPlayer(CounterStrikeSharp.API.Core.CCSPlayerController)"/>

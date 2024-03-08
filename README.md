@@ -99,7 +99,7 @@ Mod | Version | Why
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.0.8` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
 [CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.1.1` | CS2 Server chatting, monitoring, and RCON administrating via Discord. [How?](#enable-cs2-discordchatsync)
-[CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.6` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
+[CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.7` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 
 ## Custom files
 

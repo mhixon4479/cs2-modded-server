@@ -10,9 +10,10 @@
     "glock",
     ""
   ],
-  "round_end_cmd": "sv_gravity 800",
+  "round_end_execute_commands": "sv_gravity 800",
+  "max_round_length_for_vote": 10,
+  "vote_round_count": 15,
   "admin_flag": "@css/generic",
-  "vote_round_count": 10,
   "rounds": {
     "1": {
       "Name": "Deagle Round",

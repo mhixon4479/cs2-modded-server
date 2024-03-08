@@ -49,7 +49,8 @@
 					{
 						// team lobby map veto
 						"mg_comp"			"50"
-						"mg_prefire"		"51"
+						"mg_retakes"		"51"
+						"mg_prefire"		"52"
 					}
 				}
 
@@ -411,6 +412,21 @@
 			{
 				"workshop/3099519038/minimirage_cs2port"		""
 				"workshop/3078140567/mini_train"				""
+			}
+		}
+		"mg_retakes"
+		{
+			"name"			"mg_retakes"
+			"maps"
+			{
+				"de_ancient"		""
+				"de_anubis"			""
+				"de_dust2"			""
+				"de_inferno"		""
+				"de_mirage"			""
+				"de_nuke"			""
+				"de_overpass"		""
+				"de_vertigo			""
 			}
 		}
 		"mg_prefire"

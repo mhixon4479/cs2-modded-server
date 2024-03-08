@@ -12,7 +12,7 @@
 Commands | Description
 --- | --- 
 !rcon exec prac | Starts prac mod
-!rcon exec retake | Starts retake mod
+!rcon exec retakes | Starts retakes mod
 !rcon exec comp | Starts 10-man mod (no captain selection yet, need to get on the right teams)
 !rcon exec dm-multicfg | Starts deathmatch-multicfg mod
 !rcon exec aim | Starts aim_map mode

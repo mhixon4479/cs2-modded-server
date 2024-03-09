@@ -112,6 +112,11 @@
             When enabled, plugins are automatically reloaded when their .dll file is updated.
             </summary>
         </member>
+        <member name="P:CounterStrikeSharp.API.Core.CoreConfig.PluginAutoLoadEnabled">
+            <summary>
+            When enabled, plugins are automatically loaded from the plugins directory on server start.
+            </summary>
+        </member>
         <member name="T:CounterStrikeSharp.API.Core.FunctionLifetime">
             <summary>
             Describes the lifetime of a function reference.

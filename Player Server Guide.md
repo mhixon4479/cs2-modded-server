@@ -1,6 +1,8 @@
 ## Player Server Guide
 ### [How to Request Admin](#how-to-request-admin) | [Server Usage](#server-usage) | [Maps Available](https://github.com/mavproductions/cs2-modded-server?tab=readme-ov-file#what-maps-are-preconfigured-with-each-mode) | [Modes Available](https://github.com/mavproductions/cs2-modded-server/tree/master?tab=readme-ov-file#changing-game-modes) | [Edit your autoexec.cfg - How to easily connect to the server](#edit-your-autoexeccfg---how-to-easily-connect-to-the-server) | [Rules](#rules) | [Notes](#notes)
 
+## Video-Guide
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mswWAb8vW4A/0.jpg)](https://www.youtube.com/watch?v=mswWAb8vW4A)
 
 ## How to Request Admin
 * Go to https://steamid.io/ 

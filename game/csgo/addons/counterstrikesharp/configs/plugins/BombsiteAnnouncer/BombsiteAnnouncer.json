@@ -3,7 +3,7 @@
   "show-announcer-delay": 0.1,
   "announcer-visible-for-time": 10,
   "remove-bomb-planted-message": true,
-  "bombsite-A-img": "https://i.imgur.com/Vjyuiqb.png",
-  "bombsite-B-img": "https://i.imgur.com/WIC4VHx.png",
+  "bombsite-A-img": "https://raw.githubusercontent.com/audiomaster99/CS2BombsiteAnnouncer/main/.github/workflows/new-A.png", 
+  "bombsite-B-img": "https://raw.githubusercontent.com/audiomaster99/CS2BombsiteAnnouncer/main/.github/workflows/new-B.png",
   "ConfigVersion": 1
 }

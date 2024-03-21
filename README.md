@@ -88,7 +88,7 @@ Mod | Version | Why
 [CS2-Tags](https://github.com/daffyyyy/CS2-Tags)| `Build 36` | Adds basic administrator functions
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | This is a rudimentary implementation of a RCON plugin for CS2 using CounterStrikeSharp as RCON does not work whilst connected to the server
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.3` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
-[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.8` | GunGame mode on Counter Strike Sharp
+[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.9` | GunGame mode on Counter Strike Sharp
 [CS2-Multi-1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | A CS2 plugin that allows players to fight 1v1 in ranked arenas.
 [CS2 Retakes](https://github.com/B3none/cs2-retakes)| `1.4.1` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
@@ -99,7 +99,7 @@ Mod | Version | Why
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.0` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
 [CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.1.1` | CS2 Server chatting, monitoring, and RCON administrating via Discord. [How?](#enable-cs2-discordchatsync)
-[CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.7` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
+[CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 
 ## Custom files
 

@@ -90,15 +90,15 @@ Mod | Version | Why
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.3` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.9` | GunGame mode on Counter Strike Sharp
 [CS2-Multi-1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | A CS2 plugin that allows players to fight 1v1 in ranked arenas.
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `1.4.1` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
+[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `1.4.2` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
-[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `1.5.0` | Advanced weapon allocation for B3none/cs2-retakes
+[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `1.5.1` | Advanced weapon allocation for B3none/cs2-retakes
 [CS2 BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 10` | Graphical Bombsite Announcer using Center HUD image capability.
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.1` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.0` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
-[CS2-DiscordChatSync](https://github.com/imi-tat0r/CS2-DiscordChatSync/)| `1.1.1` | CS2 Server chatting, monitoring, and RCON administrating via Discord. [How?](#enable-cs2-discordchatsync)
+[CS2-Discord-Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.5` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
 [CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 
 ## Custom files
@@ -566,11 +566,9 @@ If you want it to load on every mod on your server, you can put it in your `/cus
 
 The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` which you would put in `/custom_files/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` so it is not overwritten.
 
-### Enable CS2-DiscordChatSync
+### Using CS2-DiscordUtilities
 
-If you want to enable CS2-DiscordChatSync on your server, please follow the [instructions](https://github.com/imi-tat0r/CS2-DiscordChatSync/?tab=readme-ov-file#installation) at imi-tat0r's repo.
-
-After that, add `css_plugins load "plugins/disabled/DiscordChat/DiscordChat.dll"` to your `/custom_files/cfg/custom_all.cfg` file.
+CS2-DiscordUtilities currently doesn't support load and unloading of the plugin. I have left it enabled as I find it useful, and relatively straight-forward to setup. [Here](https://docs.sourcefactory.eu/cs2-free-plugins/discord-utilities) is a setup guide for installing to your discord, along with the optional MySQL DB linking, which I recommend for administrating community-led servers.
 
 ### Enable Whitelist so only a list of people can play
 

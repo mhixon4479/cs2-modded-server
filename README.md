@@ -93,13 +93,13 @@ Mod | Version | Why
 [CS2-Multi-1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | A CS2 plugin that allows players to fight 1v1 in ranked arenas.
 [CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.0.1` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
-[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.2.1` | Advanced weapon allocation for B3none/cs2-retakes
+[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.3.1` | Advanced weapon allocation for B3none/cs2-retakes
 [CS2 BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 19` | Graphical Bombsite Announcer using Center HUD image capability.
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.2` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.0` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
-[CS2-Discord-Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.8` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
+[CS2-Discord-Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.9` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
 [CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 
 ## Custom files

@@ -8,6 +8,7 @@
   "Chat.ReportCancelled": "Raporunuz başarıyla iptal edildi.",
   "Chat.ReportShortReason": "Nedenin uzunluğu yetersiz",
   "Chat.ReportNoTargetsFound": "Hedef bulunamadı!",
+  "Chat.ReportCooldown": "Raporu her {green}{0} saniyede bir {default}kullanabilirsiniz!",
   "Chat.SelfReport": "Kendinizi rapor edemezsiniz!",
   "Chat.InserYourReason": "Nedeninizi sohbete girin! İptal etmek için, {green}!cancel yazın",
   "Chat.InvalidReportUsage": "Geçersiz rapor kullanımı! {green}/report <oyuncu> <neden>",

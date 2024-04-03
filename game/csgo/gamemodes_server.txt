@@ -20,19 +20,19 @@
 					"mapgroupsMP"
 					{
 						//Other Maps Groups
-						"mg_1v1"			"50"
-						"mg_bhop"			"51"
-						"mg_kz"				"52"
-						"mg_surf"			"53"
-						"mg_minigames"		"54"
-						"mg_scoutzknivez"	"55"
-						"mg_course"			"56"
-						"mg_hns"			"57"
-						"mg_soccer"			"58"
-						"mg_gg"				"59"
-						"mg_awp"			"60"
-						"mg_aim"			"61"
-						"mg_casual"			"62"
+						"mg_Multi1v1Arenas"			"50"
+						"mg_BHop"			"51"
+						"mg_KZ"				"52"
+						"mg_Surf"			"53"
+						"mg_MiniGames"		"54"
+						"mg_Scoutzknivez"	"55"
+						"mg_Course"			"56"
+						"mg_HideNSeek"		"57"
+						"mg_Soccer"			"58"
+						"mg_GunGame"		"59"
+						"mg_AWP"			"60"
+						"mg_AimMap"			"61"
+						"mg_Casual"			"62"
 						"mg_miniMaps"		"63"
 					}
 				}
@@ -48,9 +48,9 @@
 					"mapgroupsMP"
 					{
 						// team lobby map veto
-						"mg_comp"			"50"
-						"mg_retakes"		"51"
-						"mg_prefire"		"52"
+						"mg_10Mans"			"50"
+						"mg_Retakes"		"51"
+						"mg_Prefire"		"52"
 					}
 				}
 
@@ -79,7 +79,7 @@
 					// Map groups for online modes
 					"mapgroupsMP"
 					{
-						"mg_dm"		"50"
+						"mg_DM-Valve"		"50"
 					}
 				}
 			}
@@ -97,7 +97,7 @@
 					}
 					"mapgroupsMP"
 					{
-						"mg_dmMulti"	"50"
+						"mg_DM-MultiCFG"	"50"
 					}
 				}
 			}
@@ -119,9 +119,9 @@
 				"de_vertigo"	""
 			}
 		}
-		"mg_comp"
+		"mg_10Mans"
 		{
-			"name"			"mg_comp"
+			"name"			"mg_10Mans"
 			"maps"
 			{
 				"de_ancient"		""
@@ -171,9 +171,9 @@
 				"workshop/3072352643/de_ruins_d_prefab"		""
 			}
 		}
-		"mg_dm"
+		"mg_DM-Valve"
 		{
-			"name"			"mg_dm"
+			"name"			"mg_DM-Valve"
 			"maps"
 			{
 				"cs_italy"			""
@@ -196,9 +196,9 @@
 				"workshop/3112806723/cs_facingworlds-99"		""
 			}
 		}
-		"mg_gg"
+		"mg_GunGame"
 		{
-			"name"			"mg_gg"
+			"name"			"mg_GunGame"
 			"maps"
 			{
 				"workshop/3070923343/fy_pool_day"		""
@@ -221,18 +221,18 @@
 				"workshop/3109232789/gg_simpsons_vs_flanders_v2"		""
 			}
 		}
-		"mg_1v1"
+		"mg_Multi1v1Arenas"
 		{
-			"name"			"mg_1v1"
+			"name"			"mg_Multi1v1Arenas"
 			"maps"
 			{
 				"workshop/3070253400/aim_redline_fp"		""
 				
 			}
 		}
-		"mg_bhop"
+		"mg_BHop"
 		{
-			"name"			"mg_bhop"
+			"name"			"mg_BHop"
 			"maps"
 			{
 				"workshop/3077211069/bhop_at_night"		""
@@ -247,9 +247,9 @@
 				"workshop/3079959870/bhop_omnitopia"		""
 			}
 		}
-		"mg_kz"
+		"mg_KZ"
 		{
-			"name"			"mg_kz"
+			"name"			"mg_KZ"
 			"maps"
 			{
 				"workshop/3074758439/only_up"		""
@@ -267,9 +267,9 @@
 				"workshop/3121168339/kz_grotto"		""
 			}
 		}
-		"mg_surf"
+		"mg_Surf"
 		{
-			"name"			"mg_surf"
+			"name"			"mg_Surf"
 			"maps"
 			{
 				"workshop/3076153623/surf_kitsune"		""
@@ -283,19 +283,20 @@
 				"workshop/3165517928/surf_astra"	""
 			}
 		}
-		"mg_minigames"
+		"mg_MiniGames"
 		{
-			"name"			"mg_minigames"
+			"name"			"mg_MiniGames"
 			"maps"
 			{
+				"workshop/3164611860/deathrun_playground"		""
 				"workshop/3082120895/mg_skeet_multigames_v7"		""
 				"workshop/3076765511/mg_warmcup_headshot"		""
 				"workshop/3083325292/deathrun_iceworld_cs2"		""
 			}
 		}
-		"mg_course"
+		"mg_Course"
 		{
-			"name"			"mg_course"
+			"name"			"mg_Course"
 			"maps"
 			{
 				"workshop/3076483842/cr_devisland_p1_v1"		""
@@ -314,17 +315,18 @@
 				"workshop/3070451616/mg_sky_realm_v3"		""
 			}
 		}
-		"mg_scoutzknivez"
+		"mg_Scoutzknivez"
 		{
-			"name"			"mg_scoutzknivez"
+			"name"			"mg_Scoutzknivez"
 			"maps"
 			{
 				"workshop/3073929825/scoutzknivez_pure_cs2"		""
+				"workshop/3070553020/ar_dizzy"		""
 			}
 		}
-		"mg_hns"
+		"mg_HideNSeek"
 		{
-			"name"			"mg_hns"
+			"name"			"mg_HideNSeek"
 			"maps"
 			{
 				"workshop/3097563690/infernohideandseek"		""
@@ -334,17 +336,17 @@
 				"workshop/3071094345/hs_lake"		""
 			}
 		}
-		"mg_soccer"
+		"mg_Soccer"
 		{
-			"name"			"mg_soccer"
+			"name"			"mg_Soccer"
 			"maps"
 			{
 				"workshop/3070198374/ka_soccer_2009"		""
 			}
 		}
-		"mg_awp"
+		"mg_AWP"
 		{
-			"name"			"mg_awp"
+			"name"			"mg_AWP"
 			"maps"
 			{
 				"workshop/3142070597/awp_bhop_rocket"		""
@@ -354,15 +356,15 @@
 				"workshop/3166593524/awp_japan_neon_cs"		""
 			}
 		}
-				"mg_aim"
+				"mg_AimMap"
 		{
-			"name"			"mg_aim"
+			"name"			"mg_AimMap"
 			"maps"
 			{
-				"workshop/3070260370/aim_map_s2r"			""
+				"workshop/3140763900/1v1_hospital"		""
+				"workshop/3070260370/aim_map_s2r"		""
 				"workshop/3146122036/freebet_aim_map"	""
-				"workshop/3166913688/aim_deagle"		""
-				"workshop/3086276554/aim_orange_usp"	""
+				"workshop/3171874934/aim_inspire"		""
 				"workshop/3070923343/fy_pool_day"		""
 				"workshop/3157627939/aim_valerastan"	""
 				"workshop/3177201515/aim_anubis"		""
@@ -371,9 +373,9 @@
 				"workshop/3163827658/aim_refrag"		""
 			}
 		}
-		"mg_dmMulti"
+		"mg_DM-MultiCFG"
 		{
-			"name"			"mg_dmMulti"
+			"name"			"mg_DM-MultiCFG"
 			"maps"
 			{
 				"de_mirage"			""
@@ -382,9 +384,9 @@
 				"de_dust2"			""
 			}
 		}
-		"mg_casual"
+		"mg_Casual"
 		{
-			"name"			"mg_casual"
+			"name"			"mg_Casual"
 			"maps"
 			{
 				"cs_italy"			""
@@ -415,24 +417,24 @@
 				"workshop/3078140567/mini_train"				""
 			}
 		}
-		"mg_retakes"
+		"mg_Retakes"
 		{
-			"name"			"mg_retakes"
+			"name"			"mg_Retakes"
 			"maps"
 			{
 				"de_ancient"		""
 				"de_anubis"			""
-				"de_dust2"			""
+				"de_dust2"		""
 				"de_inferno"		""
-				"de_mirage"			""
-				"de_nuke"			""
+				"de_mirage"		""
+				"de_nuke"		""
 				"de_overpass"		""
-				"de_vertigo			""
+				"de_vertigo"		""
 			}
 		}
-		"mg_prefire"
+		"mg_Prefire"
 		{
-			"name"			"mg_prefire"
+			"name"			"mg_Prefire"
 			"maps"
 			{
 				"de_ancient"		""

@@ -51,6 +51,7 @@
 						"mg_10Mans"			"50"
 						"mg_Retakes"		"51"
 						"mg_Prefire"		"52"
+						"mg_Prac"			"53"
 					}
 				}
 
@@ -441,6 +442,25 @@
 				"de_dust2"			""
 				"de_inferno"		""
 				"de_mirage"			""
+			}
+		}
+				"mg_Prac"
+		{
+			"name"			"mg_Prac"
+			"maps"
+			{
+				"de_ancient"		""
+				"de_anubis"			""
+				"de_dust2"			""
+				"de_inferno"		""
+				"de_mirage"			""
+				"de_nuke"			""
+				"de_overpass"		""
+				"de_vertigo"		""
+				"workshop/3121217565/de_thera"	""
+				"workshop/3070212801/de_cbble"		""
+				"workshop/3070596702/de_cache"		""
+				"workshop/3073892687/de_season_d_prefab"		""
 			}
 		}
 	}

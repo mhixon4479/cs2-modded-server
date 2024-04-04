@@ -33,7 +33,7 @@
 						"mg_AWP"			"60"
 						"mg_AimMap"			"61"
 						"mg_Casual"			"62"
-						"mg_miniMaps"		"63"
+						"mg_MiniMaps"		"63"
 					}
 				}
 
@@ -52,6 +52,7 @@
 						"mg_Retakes"		"51"
 						"mg_Prefire"		"52"
 						"mg_Prac"			"53"
+						"mg_Executes"		"54"
 					}
 				}
 
@@ -66,7 +67,7 @@
 					// Map groups for online modes
 					"mapgroupsMP"
 					{
-						"mg_wingman"		"50"
+						"mg_Wingman"		"50"
 					}
 				}
 
@@ -139,9 +140,9 @@
 				"workshop/3073892687/de_season_d_prefab"		""
 			}
 		}
-		"mg_wingman"
+		"mg_Wingman"
 		{
-			"name"			"mg_wingman"
+			"name"			"mg_Wingman"
 			"maps"
 			{
 				"cs_italy"			""
@@ -409,9 +410,9 @@
 				"workshop/3072352643/de_ruins_d_prefab"		""
 			}
 		}
-		"mg_miniMaps"
+		"mg_MiniMaps"
 		{
-			"name"			"mg_miniMaps"
+			"name"			"mg_MiniMaps"
 			"maps"
 			{
 				"workshop/3099519038/minimirage_cs2port"		""
@@ -461,6 +462,14 @@
 				"workshop/3070212801/de_cbble"		""
 				"workshop/3070596702/de_cache"		""
 				"workshop/3073892687/de_season_d_prefab"		""
+			}
+		}
+		"mg_Executes"
+		{
+			"name"			"mg_Executes"
+			"maps"
+			{
+				"de_mirage"		""
 			}
 		}
 	}

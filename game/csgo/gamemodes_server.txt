@@ -444,7 +444,7 @@
 				"de_mirage"			""
 			}
 		}
-				"mg_Prac"
+		"mg_Prac"
 		{
 			"name"			"mg_Prac"
 			"maps"

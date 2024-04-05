@@ -102,6 +102,7 @@ Mod | Version | Why
 [CS2-Discord-Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.9` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
 [CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.3` | Simplified administration and voting management for custom modes and map switching.
+[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.22` | Similar to Yprac and Refrag prefire modes.
 
 ## Custom files
 

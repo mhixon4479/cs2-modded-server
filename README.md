@@ -101,7 +101,7 @@ Mod | Version | Why
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.0` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
 [CS2-Discord-Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.9` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
 [CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
-[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.2` | Simplified administration and voting management for custom modes and map switching.
+[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.3` | Simplified administration and voting management for custom modes and map switching.
 
 ## Custom files
 

@@ -2,8 +2,8 @@
 {
   "RTV": {
     "Enabled": true,
-    "Plugin": "/home/steam/cs2/game/csgo/addons/counterstrikesharp/plugins/RockTheVote/RockTheVote.dll",
-    "MapListFile": "/home/steam/cs2/game/csgo/addons/counterstrikesharp/plugins/RockTheVote/maplist.txt",
+    "Plugin": "/home/steam/cs2/game/csgo/addons/counterstrikesharp/plugins/disabled/RockTheVote/RockTheVote.dll",
+    "MapListFile": "/home/steam/cs2/game/csgo/addons/counterstrikesharp/plugins/disabled/RockTheVote/maplist.txt",
     "DefaultMapFormat": false
   },
   "MapGroup": {

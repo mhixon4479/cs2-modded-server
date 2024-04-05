@@ -4,7 +4,7 @@
   //----------------------------------------------------------------
   //false: aim_.cfg ==> aim_deagle_.cfg ==> aim_deagle_lego.cfg ==> _default_.cfg
   //true: aim_deagle_lego.cfg ==> aim_deagle_.cfg ==> aim_.cfg ==> _default_.cfg
-  "InvertPathMode": false,
+  "InvertPathMode": true,
   
 //-----------------------------------------------------------------------------------------
 

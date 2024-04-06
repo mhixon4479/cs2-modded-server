@@ -80,29 +80,28 @@ Mod | Version | Why
 --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1284` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `205` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
-[CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
-[CS2 Remove Map Weapons](https://github.com/kus//CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
-[CS2_DamageInfo](https://github.com/K4ryuu/CS2_DamageInfo) | `2.3.2` | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.
-[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.2` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
-[Map_Configs_Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | Allows you to quick and easily create unique configuration files for each map on your server.
-[SimpleAdmin ](https://github.com/connercsbn/SimpleAdmin/)| `v0.1.2` | Adds basic administrator functions
-[CS2-Tags](https://github.com/daffyyyy/CS2-Tags)| `Build 36` | Adds basic administrator functions
-[CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | This is a rudimentary implementation of a RCON plugin for CS2 using CounterStrikeSharp as RCON does not work whilst connected to the server
-[SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.3` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
-[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.9` | GunGame mode on Counter Strike Sharp
-[CS2-Multi-1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | A CS2 plugin that allows players to fight 1v1 in ranked arenas.
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.0.1` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
-[CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
-[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.3.2` | Advanced weapon allocation for B3none/cs2-retakes
-[CS2 BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 21` | Graphical Bombsite Announcer using Center HUD image capability.
-[CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
-[CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.2` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
-[CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
-[CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.0` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
-[CS2-Discord-Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.9` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
-[CS2-CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
+[Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
+[CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
+[CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
+[Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.0` | Custom Deathmatch plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
+[Discord Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.9` | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
+[Executes](https://github.com/zwolof/cs2-executes)| `1.0.2` | Implementation of executes. Based on the version for CS:GO by Splewis.
+[ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.3` | Simplified administration and voting management for custom modes and map switching.
+[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.9` | GunGame mode
+[Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | Allows you to quick and easily create unique configuration files for each map on your server.
+[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.2` | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
+[Multi 1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | A plugin that allows players to fight 1v1 in ranked arenas.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.22` | Similar to Yprac and Refrag prefire modes.
+[Remove Map Weapons](https://github.com/kus//CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
+[Retakes](https://github.com/B3none/cs2-retakes)| `2.0.1` | Implementation of retakes. Based on the version for CS:GO by Splewis.
+[Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.3.2` | Advanced weapon allocation for retakes
+[BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 21` | Graphical Bombsite Announcer using Center HUD image capability.
+[Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
+[SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/)| `v0.1.2` | Adds basic administrator functions
+[SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.3` | Simple Timer plugin
+[Tags](https://github.com/daffyyyy/CS2-Tags)| `Build 36` | Adds basic administrator functions
+[Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 
 ## Custom files
 

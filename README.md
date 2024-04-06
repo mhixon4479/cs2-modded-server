@@ -94,7 +94,7 @@ Mod | Version | Developer | Why
 [Multi 1v1](https://github.com/rockCityMath/CS2-Multi-1v1)| `1.0.0` | [rockCityMath](https://github.com/rockCityMath/) | A plugin that allows players to fight 1v1 in ranked arenas.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.22` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
-[Retakes](https://github.com/B3none/cs2-retakes)| `2.0.1` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
+[Retakes](https://github.com/B3none/cs2-retakes)| `2.0.2` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.2` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
 [BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 21` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
 [Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.2` | [B3none](https://github.com/B3none/) | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.

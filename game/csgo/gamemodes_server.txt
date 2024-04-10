@@ -20,7 +20,7 @@
 					"mapgroupsMP"
 					{
 						//Other Maps Groups
-						"mg_Multi1v1Arenas"			"50"
+						"mg_Multi1v1-Arena"			"50"
 						"mg_BHop"			"51"
 						"mg_KZ"				"52"
 						"mg_Surf"			"53"
@@ -223,12 +223,15 @@
 				"workshop/3109232789/gg_simpsons_vs_flanders_v2"		""
 			}
 		}
-		"mg_Multi1v1Arenas"
+		"mg_Multi1v1-Arena"
 		{
-			"name"			"mg_Multi1v1Arenas"
+			"name"			"mg_Multi1v1-Arena"
 			"maps"
 			{
-				"workshop/3070253400/aim_redline_fp"		""
+				"workshop/3197575080/am_minecraft_pierdolnik"		""
+				"workshop/3197575080/aim_redline"		""
+				"workshop/3180965466/am_zen"			""
+				"workshop/3070572195/duels_mirage_1x1"		""
 				
 			}
 		}

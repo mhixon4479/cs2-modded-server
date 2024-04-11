@@ -79,7 +79,7 @@ Getting up and running:
 Mod | Version | Developer | Why
 --- | --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1284` | Community-Project | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `206` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `211` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | [partiusfabaa](https://github.com/partiusfabaa/) | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
 [CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | [schwarper](https://github.com/schwarper/) | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it

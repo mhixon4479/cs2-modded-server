@@ -1,0 +1,24 @@
+{
+    "OnPlayerConnectMsgs": [
+        {
+            "msg": "To enter [GREEN]prefire practice[NORMAL] mode, please type [RED]!prefire[NORMAL]."
+        }
+    ],
+    "OnRoundStartMsgs": [
+        {
+            "msg": "Some info."
+        }
+    ],
+    "OnCommandMsgs": [
+        {
+            "msg": "Return message.",
+            "cmd": "help"
+        }
+    ],
+    "TimerMsgs" : [
+        {
+            "msg": "A timer triggered message.",
+            "timer": 60.0
+        }
+    ]
+}

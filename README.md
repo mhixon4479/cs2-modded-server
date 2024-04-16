@@ -93,7 +93,7 @@ Mod | Version | Developer | Why
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.11` | [ssypchenko](https://github.com/ssypchenko/) | GunGame mode
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.3` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
-[Multi-1v1](https://github.com/K4ryuu/K4-Arenas)| `1.3.5` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
+[Multi-1v1](https://github.com/K4ryuu/K4-Arenas)| `1.3.6` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.26` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes)| `2.0.2` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.

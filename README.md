@@ -1,6 +1,6 @@
 # Counter-Strike 2 (CS2) Modded Dedicated Server
 
-### [Player Server Guide](Player%20Server%20Guide.md) | [Maps Available](#what-maps-are-preconfigured-with-each-mode) | [Modes Available](#changing-game-modes)
+### [Player Server Guide](Player%20Server%20Guide.md) | [Maps Available](#what-maps-are-preconfigured-with-each-mode) | [Modes Available](#changing-game-modes) | [Plugins List](#mods-installed)
 
 ## About
 
@@ -27,6 +27,7 @@ Each game mode has a hand full of maps preset so you are ready to go and it's [e
 - ScoutzKnivez ([Steam API key](#playing-workshop-mapscollections) required)
 - Mini Games ([Steam API key](#playing-workshop-mapscollections) required)
 - Course format (tests players with different traps, kz, surf, bhop) ([Steam API key](#playing-workshop-mapscollections) required)
+- Prefire
 - Hide n Seek ([Steam API key](#playing-workshop-mapscollections) required)
 - Soccer ([Steam API key](#playing-workshop-mapscollections) required)
 
@@ -517,34 +518,35 @@ I plan to add more features like !rtv, !nominate etc.
 
 There is no "menu" feature in CS2, so it's all via the chat window or server console.
 
-The easiest way to manage the server is to use the Rcon commands via chat i.e. `!rcon exec dm` will change to deathmatch.
+The easiest way to manage the server is to use the Rcon commands via chat i.e. `!mode dm` will change to deathmatch.
 
 These are all the available chat commands to change the game mode:
 
 | Command                   | Game mode                                                                         |
 | ------------------------- | --------------------------------------------------------------------------------- |
-| `!rcon exec 1v1`          | 1v1 (allows more than 2 players)                                                  |
-| `!rcon exec aim`          | Aim Maps                                                                          |
-| `!rcon exec awp`          | AWP Maps                                                                          |
-| `!rcon exec ar`           | Arms Race                                                                         |
-| `!rcon exec bhop`         | Bunny hop maps                                                                    |
-| `!rcon exec casual`       | Casual/Fun maps                                                                   |
-| `!rcon exec comp`         | Competitive using [MatchZy](https://github.com/shobhit-pathak/MatchZy#usage-commands) |
-| `!rcon exec course`       | Tests players with different traps, kz, surf, bhop                                |
-| `!rcon exec dm`           | Deathmatch                                                                        |
-| `!rcon exec dm-multicfg`  | Deathmatch Multi Config                                                           |
-| `!rcon exec executes`     | Executes                                                                          |
-| `!rcon exec gg`           | Gun Game                                                                          |
-| `!rcon exec hns`          | Hide n Seek                                                                       |
-| `!rcon exec kz`           | Kreedz Climbing                                                                   |
-| `!rcon exec minigames`    | Mini Games                                                                        |
-| `!rcon exec miniMaps`     | Mini-style Maps                                                                   |
-| `!rcon exec prac`         | Practice (grenade lineups etc)                                                    |
-| `!rcon exec retake`       | Retakes                                                                           |
-| `!rcon exec scoutzknivez` | ScoutzKnivez                                                                      |
-| `!rcon exec soccer`       | Soccer                                                                            |
-| `!rcon exec surf`         | Surf                                                                              |
-| `!rcon exec wingman`      | Wingman (allows more than 4 players)                                              |
+| `!mode 1v1`          | 1v1 (allows more than 2 players)                                                  |
+| `!mode aim`          | Aim Maps                                                                          |
+| `!mode awp`          | AWP Maps                                                                          |
+| `!mode ar`           | Arms Race                                                                         |
+| `!mode bhop`         | Bunny hop maps                                                                    |
+| `!mode casual`       | Casual/Fun maps                                                                   |
+| `!mode comp`         | 10mans/scrims/match environment featuring MatchZy `matchzy_autostart_mode 1`      |
+| `!mode course`       | Tests players with different traps, kz, surf, bhop                                |
+| `!mode dm`           | Deathmatch                                                                        |
+| `!mode dm-multicfg`  | Deathmatch Multi-CFG                                                              |
+| `!mode executes`     | Similar to Retakes, but simulates round-play before bomb plants. Hence "Executes" |
+| `!mode gg`           | Gun Game                                                                          |
+| `!mode hns`          | Hide n Seek                                                                       |
+| `!mode kz`           | Kreedz Climbing                                                                   |
+| `!mode minigames`    | Mini Games                                                                        |
+| `!mode miniMaps`     | Mini-style Maps (ie. mini_mirage)                                                 |
+| `!mode prac`         | Practice environment featuring MatchZy `matchzy_autostart_mode 2`                 |
+| `!mode prefire`      | OpenPrefirePrac (similar to Yprac or Refrag.gg)                                   |
+| `!mode retakes`      | Retakes                                                                           |
+| `!mode scoutzknivez` | ScoutzKnivez                                                                      |
+| `!mode soccer`       | Soccer                                                                            |
+| `!mode surf`         | Surf                                                                              |
+| `!mode wingman`      | Wingman (allows more than 4 players)                                              |
 
 Changing between gamemodes multiple times is not recommended, and it is better if you restart the CS2 server in-between.
 

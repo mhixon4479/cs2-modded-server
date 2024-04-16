@@ -2,7 +2,7 @@
 ### [How to Request Admin](#how-to-request-admin) | [Server Usage](#server-usage) | [Maps Available](https://github.com/mavproductions/cs2-modded-server?tab=readme-ov-file#what-maps-are-preconfigured-with-each-mode) | [Modes Available](https://github.com/mavproductions/cs2-modded-server/tree/master?tab=readme-ov-file#changing-game-modes) | [Edit your autoexec.cfg - How to easily connect to the server](#edit-your-autoexeccfg---how-to-easily-connect-to-the-server) | [Rules](#rules) | [Notes](#notes)
 
 ## Video-Guide
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mswWAb8vW4A/0.jpg)](https://www.youtube.com/watch?v=mswWAb8vW4A)
+[![Player Guide](https://img.youtube.com/vi/mswWAb8vW4A/0.jpg)](https://www.youtube.com/watch?v=mswWAb8vW4A)
 
 ## How to Request Admin
 * Go to https://steamid.io/ 
@@ -13,26 +13,26 @@
 ![Ingame RCON mods usage example](https://i.imgur.com/Siv4EQn.png)
 Commands | Description
 --- | --- 
-!rcon exec prac | Starts prac mod
-!rcon exec retakes | Starts retakes mod
-!rcon exec comp | Starts 10-man mod (no captain selection yet, need to get on the right teams)
-!rcon exec dm-multicfg | Starts deathmatch-multicfg mod
-!rcon exec aim | Starts aim_map mode
-!rcon exec awp | Starts awp_map mode
-!rcon exec mods | Lists all available mods/modes
+!modes | Mode list menu with change ability
+!mode prac | Starts prac mod
+!mode retakes | Starts retakes mod
+!mode comp | Starts 10-man mod (no captain selection yet, need to get on the right teams)
+!mode dm-multicfg | Starts deathmatch-multicfg mod
+!mode aim | Starts aim_map mode
+!mode awp | Starts awp_map mode
 !rcon mp_restartgame 1 | Restarts the round, which fixes some issues.
 !map de_nuke | Switches to nuke
-.prac | Start prac mode (must exec prac first)
+.prac | Start prac mode (must be on prac-mode first)
 .listnades | Shows nades saved for each map
 .globalnades | Toggling global nade save or private for your next saved lineup
-.savenade \<name\> \<optional description\> |  Saves a lineup
+.savenade \<name\> \<optional description\> |  Saves a lineup. Please use this naming format "**bApts-from-CTspawn**"
 .god | Turns on god mode
 .rethrow | Rethrow grenade
 .ff | Fastforwards 20 seconds(clear util)
 .spawn 1 | Moves you to spawn 1 of current team
 .bot | Places bot (good for testing spam spots)
-!rcon exec bot_add | Adds bot
-!rcon exec bot_kick | Kicks all bots
+!rcon bot_add | Adds bot
+!rcon bot_kick | Kicks all bots
 
 For many mods, when you load them you will find the commands available through public chat broadcasts (kz/surf I can confirm for at least.)
 

@@ -97,13 +97,13 @@ Mod | Version | Developer | Why
 [Multi-1v1](https://github.com/K4ryuu/K4-Arenas) | `1.3.9` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.29` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
-[Retakes](https://github.com/B3none/cs2-retakes) | `2.0.2` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
-[Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.6` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
+[Retakes](https://github.com/B3none/cs2-retakes) | `2.0.3` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
+[Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.7` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
 [BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer) | `Build 25` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
 [Instadefuse](https://github.com/B3none/cs2-instadefuse) | `1.4.3` | [B3none](https://github.com/B3none/) | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. 
 [RockTheVote](https://github.com/abnerfs/cs2-rockthevote) | `1.8.5` | [abnerfs](https://github.com/abnerfs) | General purpose CS2 map voting plugin.
 [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/) | `v0.1.2` | [connercsbn](https://github.com/connercsbn/) | Adds basic administrator functions
-[SharpTimer](https://github.com/DEAFPS/SharpTimer/) | `0.2.3` | [DEAFPS](https://github.com/DEAFPS/) | All-in-One BHop/KZ/Surf/etc timer, movement-unlocker, ranking, and stats plugin
+[SharpTimer](https://github.com/DEAFPS/SharpTimer/) | `0.2.4` | [DEAFPS](https://github.com/DEAFPS/) | All-in-One BHop/KZ/Surf/etc timer, movement-unlocker, ranking, and stats plugin
 [Tags](https://github.com/daffyyyy/CS2-Tags) | `Build 36` | [daffyyyy](https://github.com/daffyyyy/) | Adds Tags to a select group of clients' aliases on the server
 [Whitelist](https://github.com/PhantomYopta/CS2_WhiteList) | `1.0.0` | [PhantomYopta](https://github.com/PhantomYopta/) | Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 

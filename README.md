@@ -80,7 +80,7 @@ Getting up and running:
 Mod | Version | Developer | Why
 --- | --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1289` | Community-Project | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `215` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `217` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.0` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [Advertisement](https://github.com/partiusfabaa/cs2-advertisement) | `1.0.6.7` | [partiusfabaa](https://github.com/partiusfabaa/) | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
@@ -99,7 +99,7 @@ Mod | Version | Developer | Why
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes) | `2.0.3` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.7` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
-[BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer) | `Build 25` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
+[BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer) | `Build 27` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
 [Instadefuse](https://github.com/B3none/cs2-instadefuse) | `1.4.3` | [B3none](https://github.com/B3none/) | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. 
 [RockTheVote](https://github.com/abnerfs/cs2-rockthevote) | `1.8.5` | [abnerfs](https://github.com/abnerfs) | General purpose CS2 map voting plugin.
 [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/) | `v0.1.2` | [connercsbn](https://github.com/connercsbn/) | Adds basic administrator functions

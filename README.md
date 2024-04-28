@@ -80,7 +80,7 @@ Getting up and running:
 Mod | Version | Developer | Why
 --- | --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1289` | Community-Project | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `217` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `219` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.0` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [Advertisement](https://github.com/partiusfabaa/cs2-advertisement) | `1.0.6.7` | [partiusfabaa](https://github.com/partiusfabaa/) | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
@@ -93,7 +93,7 @@ Mod | Version | Developer | Why
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.3` | [nickj609](https://github.com/nickj609/) | Simplified administration and voting management for custom modes and map switching.
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.13` | [ssypchenko](https://github.com/ssypchenko/) | GunGame mode
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
-[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.5` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
+[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.6` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 [Multi-1v1](https://github.com/K4ryuu/K4-Arenas) | `1.3.9` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.29` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.

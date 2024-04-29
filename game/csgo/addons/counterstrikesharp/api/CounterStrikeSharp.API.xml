@@ -597,6 +597,9 @@
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToCenter(System.String)">
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToCenterAlert(System.String)">
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.PrintToCenterHtml(System.String,System.Int32)">
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
@@ -1460,7 +1463,7 @@
         </member>
         <member name="M:CounterStrikeSharp.API.Modules.Utils.Vector.Length">
             <summary>
-            Returns the Euclidean length of the vector: √x² + y² + z² 
+            Returns the Euclidean length of the vector: √x² + y² + z²
             </summary>
             <returns>Euclidean length of vector</returns>
         </member>

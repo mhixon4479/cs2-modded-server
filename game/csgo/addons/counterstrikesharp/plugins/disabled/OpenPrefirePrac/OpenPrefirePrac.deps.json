@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "OpenPrefirePrac/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.215",
+          "CounterStrikeSharp.API": "1.0.227",
           "MaxMind.Db": "4.1.0",
           "MaxMind.GeoIP2": "5.2.0",
           "Microsoft.Extensions.Localization.Abstractions": "8.0.3"
@@ -17,7 +17,7 @@
           "OpenPrefirePrac.dll": {}
         }
       },
-      "CounterStrikeSharp.API/1.0.215": {
+      "CounterStrikeSharp.API/1.0.227": {
         "dependencies": {
           "McMaster.NETCore.Plugins": "1.4.0",
           "Microsoft.CSharp": "4.7.0",
@@ -34,8 +34,8 @@
         },
         "runtime": {
           "lib/net8.0/CounterStrikeSharp.API.dll": {
-            "assemblyVersion": "1.0.215.0",
-            "fileVersion": "1.0.215.0"
+            "assemblyVersion": "1.0.227.0",
+            "fileVersion": "1.0.227.0"
           }
         }
       },
@@ -562,12 +562,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CounterStrikeSharp.API/1.0.215": {
+    "CounterStrikeSharp.API/1.0.227": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6+Alg+R3JMKQd9Jf2urnyzegW/ge0hNeE719RCoTX9bKoejoBAqWx2D9g/MfyHRJfE1sFdVbObyGuNfnp0NI4Q==",
-      "path": "counterstrikesharp.api/1.0.215",
-      "hashPath": "counterstrikesharp.api.1.0.215.nupkg.sha512"
+      "sha512": "sha512-QhkxqCk7Qi0FFSC2FGizLH8KHLqwoy3iYHxhqFSql9nUBQ9vjtTsJpTrcB1mnyLcYEpfvsxhNtbkky9g2BBkYA==",
+      "path": "counterstrikesharp.api/1.0.227",
+      "hashPath": "counterstrikesharp.api.1.0.227.nupkg.sha512"
     },
     "MaxMind.Db/4.1.0": {
       "type": "package",

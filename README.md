@@ -95,7 +95,7 @@ Mod | Version | Developer | Why
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.7` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 [Multi-1v1](https://github.com/K4ryuu/K4-Arenas) | `1.3.10` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
-[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.29` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
+[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.30` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes) | `2.0.3` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.10` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes

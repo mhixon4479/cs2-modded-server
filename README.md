@@ -91,7 +91,7 @@ Mod | Version | Developer | Why
 [Executes](https://github.com/zwolof/cs2-executes) | `1.0.2` | [zwolof](https://github.com/zwolof/) & [B3none](https://github.com/B3none/) | Implementation of executes. Based on the version for CS:GO by Splewis.
 [ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | [Kus](https://github.com/kus/) | Executes a command after server event (i.e. OnMapStart) or a delay.
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.5` | [nickj609](https://github.com/nickj609/) | Simplified administration and voting management for custom modes and map switching/extending.
-[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.0.13` | [ssypchenko](https://github.com/ssypchenko/) | GunGame mode
+[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.0` | [ssypchenko](https://github.com/ssypchenko/) | GunGame mode
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.7` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 [Multi-1v1](https://github.com/K4ryuu/K4-Arenas) | `1.3.10` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.

@@ -95,7 +95,7 @@ Mod | Version | Developer | Why
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.8` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 [Multi-1v1](https://github.com/K4ryuu/K4-Arenas) | `1.3.10` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
-MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster99) | Assisting with game states when the server is empty, and gains a player.
+MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster99) | Assisting with game states when the server is empty, and gains a player. Be sure to unload with conflicting plugins (ex. Retakes), and reload plugin switching away from conflicting plugins.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.31-fix` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes) | `2.0.4` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
@@ -612,9 +612,9 @@ If you want it to load on every mod on your server, you can put it in your `/cus
 
 The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` which you would put in `/custom_files/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` so it is not overwritten.
 
-### Using CS2-DiscordUtilities
+### Using DiscordUtilities
 
-CS2-DiscordUtilities currently doesn't support load and unloading of the plugin. I have left it enabled as I find it useful, and relatively straight-forward to setup. [Here](https://docs.sourcefactory.eu/cs2-free-plugins/discord-utilities) is a setup guide for installing to your discord, along with the optional MySQL DB linking, which I recommend for administrating community-led servers.
+DiscordUtilities is enabled by default. I have left it enabled as I find it useful, and relatively straight-forward to setup. [Here](https://docs.sourcefactory.eu/cs2-free-plugins/discord-utilities) is a setup guide for installing to your discord, along with the optional MySQL DB linking, which I recommend for administrating community-led servers. You can remove modules as you please.
 
 ### Enable Whitelist so only a list of people can play
 

@@ -16,8 +16,8 @@
           "Text": "{Red}No",
           "Commands": []
         },
-        "Competitive": {
-          "Text": "{Green}Competitive",
+        "10-Man": {
+          "Text": "{Green}10-Man",
           "Commands": [
             "exec comp"
           ]
@@ -106,6 +106,12 @@
             "exec minigames"
           ]
         },
+        "Mini Maps": {
+          "Text": "{Green}Mini Maps",
+          "Commands": [
+            "exec miniMaps"
+          ]
+        },
         "Deathrun": {
           "Text": "{Green}Deathrun",
           "Commands": [
@@ -146,11 +152,13 @@
       }
     },
     {
-      "Command": "comp",
+      "Command": "10-man",
       "CommandAliases": [
-        "competitive"
+        "comp",
+        "competitive",
+        "10man"
       ],
-      "Description": "Switch game mode to Competitive?",
+      "Description": "Switch game mode to 10-Man?",
       "TimeToVote": 30,
       "Options": {
         "Yes": {
@@ -200,9 +208,10 @@
     {
       "Command": "dm",
       "CommandAliases": [
-        "deathmatch"
+        "deathmatch",
+        "dm-multicfg"
       ],
-      "Description": "Switch game mode to Deathmatch?",
+      "Description": "Switch game mode to DM-MultiCFG?",
       "TimeToVote": 30,
       "Options": {
         "Yes": {
@@ -278,7 +287,10 @@
     },
     {
       "Command": "awp",
-      "CommandAliases": [],
+      "CommandAliases": [
+        "awpmap",
+        "awp_map"
+      ],
       "Description": "Switch game mode to Awp Only?",
       "TimeToVote": 30,
       "Options": {
@@ -303,7 +315,10 @@
     },
     {
       "Command": "aim",
-      "CommandAliases": [],
+      "CommandAliases": [
+        "aim_map",
+        "aimmap"
+      ],
       "Description": "Switch game mode to Aim?",
       "TimeToVote": 30,
       "Options": {
@@ -328,7 +343,10 @@
     },
     {
       "Command": "prefire",
-      "CommandAliases": [],
+      "CommandAliases": [
+        "prefireprac",
+        "openprefireprac"
+      ],
       "Description": "Switch game mode to Prefire?",
       "TimeToVote": 30,
       "Options": {
@@ -379,9 +397,9 @@
       }
     },
     {
-      "Command": "retake",
+      "Command": "retakes",
       "CommandAliases": [
-        "retakes"
+        "retake"
       ],
       "Description": "Switch game mode to Retakes?",
       "TimeToVote": 30,
@@ -408,7 +426,9 @@
     {
       "Command": "prac",
       "CommandAliases": [
-        "practice"
+        "practice",
+        "pracmode",
+        "prac-mode"
       ],
       "Description": "Switch game mode to Practice?",
       "TimeToVote": 30,
@@ -459,7 +479,9 @@
     },
     {
       "Command": "kz",
-      "CommandAliases": [],
+      "CommandAliases": [
+        "kreedz"
+      ],
       "Description": "Switch game mode to KZ?",
       "TimeToVote": 30,
       "Options": {
@@ -533,8 +555,37 @@
       }
     },
     {
+      "Command": "minimaps",
+      "CommandAliases": [
+        "mini-maps"
+      ],
+      "Description": "Switch game mode to Mini Maps?",
+      "TimeToVote": 30,
+      "Options": {
+        "Yes": {
+          "Text": "{Green}Yes",
+          "Commands": [
+            "exec miniMaps"
+          ]
+        },
+        "No": {
+          "Text": "{Red}No",
+          "Commands": []
+        }
+      },
+      "DefaultOption": "No",
+      "Style": "center",
+      "MinVotePercentage": 50,
+      "Permission": {
+        "RequiresAll": false,
+        "Permissions": []
+      }
+    },
+    {
       "Command": "deathrun",
-      "CommandAliases": [],
+      "CommandAliases": [
+        "dr"
+      ],
       "Description": "Switch game mode to Deathrun?",
       "TimeToVote": 30,
       "Options": {
@@ -616,7 +667,10 @@
     {
       "Command": "hns",
       "CommandAliases": [
-        "hide"
+        "hide",
+        "hidenseek",
+        "hideandseek",
+        "hide-and-seek"
       ],
       "Description": "Switch game mode to Hide n Seek?",
       "TimeToVote": 30,

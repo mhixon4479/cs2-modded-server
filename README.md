@@ -67,6 +67,7 @@ Useful things to know:
 - [Access admin menu](#acessing-admin-menu)
 - [Changing game mode](#changing-game-modes)
 - [Changing maps](#changing-maps)
+- [Player commands](#player-commands)
 
 Getting up and running:
 
@@ -87,6 +88,7 @@ Mod | Version | Developer | Why
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon) | `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
 [CustomRounds](https://github.com/schwarper/cs2-customrounds) | `0.0.8` | [schwarper](https://github.com/schwarper/) | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 [Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch) | `1.1.3` | [NockyCZ](https://github.com/NockyCZ/) | Custom Deathmatch plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
+[Deathrun Manager](https://github.com/leoskiline/cs2-deathrun-manager) | `0.0.8` | [leoskiline](https://github.com/leoskiline/cs2-deathrun-manager/) | Improves Deathrun gameflow.
 [Discord Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities) | `2.0.2` | [NockyCZ](https://github.com/NockyCZ/) | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
 [Executes](https://github.com/zwolof/cs2-executes) | `1.0.2` | [zwolof](https://github.com/zwolof/) & [B3none](https://github.com/B3none/) | Implementation of executes. Based on the version for CS:GO by Splewis.
 [ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | [Kus](https://github.com/kus/) | Executes a command after server event (i.e. OnMapStart) or a delay.
@@ -394,6 +396,22 @@ If you see content in both; everything is working.
 When you join the server you can [change game modes](#changing-game-modes).
 
 ## FAQ
+
+### Player commands
+
+#### !rtv
+
+Players can start a vote to change the map in the current mod by typing `!rtv` in chat.
+
+<img alt="Vote to change map" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/assets/rtv.png?raw=true&sanitize=true">
+
+#### !gamemode
+
+Players can start a vote to change the game mode by typing `!gamemode` in chat.
+
+<img alt="Vote to change game mode" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/assets/vote-gamemode.png?raw=true&sanitize=true">
+
+You can also start a specific game mode vote by typing `!comp`, `!wingman`, `!dm`, `!gg`, `!1v1`, `!awp`, `!aim`, `!prefire`, `!executes`, `!retake`, `!prac`, `!bhop`, `!kz`, `!surf`, `!minigames`, `!deathrun`, `!course`, `!scoutzknivez`, `!hns`, `!soccer`.
 
 ### What maps are preconfigured with each mode?
 

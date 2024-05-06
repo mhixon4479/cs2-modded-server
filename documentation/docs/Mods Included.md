@@ -2,11 +2,13 @@ Mod | Version | Developer | Why
 --- | --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1284` | Community-Project | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `213` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.0` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.7` | [partiusfabaa](https://github.com/partiusfabaa/) | Allows you to s   ads in chat/center/panel. 
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
 [CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | [schwarper](https://github.com/schwarper/) | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 [Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.1` | [NockyCZ](https://github.com/NockyCZ/) | Custom Deathmatch plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
+[Deathrun Manager](https://github.com/leoskiline/cs2-deathrun-manager) | `0.0.8` | [leoskiline](https://github.com/leoskiline/cs2-deathrun-manager/) | Improves Deathrun gameflow.
 [Discord Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities)| `1.0.9` | [NockyCZ](https://github.com/NockyCZ/) | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. 
 [Executes](https://github.com/zwolof/cs2-executes)| `1.0.2` | [zwolof](https://github.com/zwolof/) & [B3none](https://github.com/B3none/) | Implementation of executes. Based on the version for CS:GO by Splewis.
 [ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | [Kus](https://github.com/kus/) | Executes a command after server event (i.e. OnMapStart) or a delay.

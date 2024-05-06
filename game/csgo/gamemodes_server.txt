@@ -34,6 +34,7 @@
 						"mg_AimMap"			"61"
 						"mg_Casual"			"62"
 						"mg_MiniMaps"		"63"
+						"mg_Deathrun"		"64"
 					}
 				}
 
@@ -318,6 +319,15 @@
 				"workshop/3070447697/mg_simpsons_course_v2"		""
 				"workshop/3070452642/mg_sonic_course_v2"		""
 				"workshop/3070451616/mg_sky_realm_v3"		""
+			}
+		}
+		"mg_deathrun"
+		{
+			"name"			"mg_deathrun"
+			"maps"
+			{
+				"workshop/3164611860/deathrun_playground"		""
+				"workshop/3083325292/deathrun_iceworld_cs2"		""
 			}
 		}
 		"mg_Scoutzknivez"

@@ -1,0 +1,39 @@
+name: Compare and Update Markdown Files
+
+on:
+  push:
+    paths:
+      - '*.md'
+
+jobs:
+  compare_and_update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+      
+    - name: Compare files
+      id: compare
+      run: |
+        # Get the content of the table starting with "Mod | Version | Developer | Why" from README.md
+        readme_table=$(awk '/Mod \| Version \| Developer \| Why/ {p=1; print} p && /^\s*$/ {exit}' README.md)
+        
+        # Get the content of the corresponding table from /documentation/docs/Mods Included.md
+        mod_included_table=$(awk '/Mod \| Version \| Developer \| Why/ {p=1; print} p && /^\s*$/ {exit}' documentation/docs/Mods\ Included.md)
+        
+        # Compare the tables
+        if [[ "$readme_table" != "$mod_included_table" ]]; then
+          echo "::set-output name=files_differ::true"
+        else
+          echo "::set-output name=files_differ::false"
+        fi
+      
+    - name: Update files if needed
+      if: steps.compare.outputs.files_differ == 'true'
+      run: |
+        # Update /documentation/docs/Mods Included.md with content of README.md
+        cp README.md documentation/docs/Mods\ Included.md
+        git add documentation/docs/Mods\ Included.md
+        git commit -m "Update /documentation/docs/Mods Included.md with changes from README.md"
+        git push

@@ -1,0 +1,74 @@
+site_name: CS2-Modded-Server Documentation
+site_url: https://mavproductions.github.io/cs2-modded-server
+repo_url: https://github.com/mavproductions/cs2-modded-server
+repo_name: mavproductions/cs2-modded-server
+docs_dir: docs
+edit_uri: https://github.com/mavproductions/cs2-modded-server/blob/master/documentation/docs
+theme:
+  icon: 
+    logo: simple/counterstrike
+    repo: fontawesome/brands/github
+    annotation: material/alert-circle
+  features:
+  - content.code.annotate
+  - content.code.copy
+  - content.tabs.link
+  - navigation.expand
+  - navigation.tracking
+  - navigation.sections
+  - search.suggest
+  - search.highlight
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Mods Included: 'Mods Included.md'
+  - Setup:
+    - Basic Install Guide: 'Basic Install Guide.md'
+    - Environment Variables: 'Basic Install Guide/#env-vars'
+    - MySQL Setup: 'MySQL Setup.md'
+    - Gamemodes & Maplists: 'Gamemodes & Maplists.md'
+    - Server Routines: 'Server Routines.md'
+  - Discord Integration: 
+    - Create a DiscordBot: 'Create a DiscordBot.md'
+    - Configuring DiscordUtilities: 'Configuring DiscordUtilities.md'
+    - Custom Slash Commands: 'Custom Slash Commands.md'
+    - Using Your DiscordBot: 'Using Your DiscordBot.md'
+  - Server Usage:
+    - Player Server Guide: 'Player Server Guide.md'
+    - Server Quick Connects: 'Quick Connects.md'
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js

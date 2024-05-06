@@ -1,0 +1,15 @@
+#:simple-discord: Create a DiscordBot
+
+1. Go to [Discord Developer Portal - My Applications](https://discord.com/developers/applications)
+2. Click on the New Application and type a name for the BOT
+![Step2](https://docs.sourcefactory.eu/~gitbook/image?url=https:%2F%2F799349702-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FrczaiIR8LCIvnID1U1Ty%252Fuploads%252FojAZUPHcjmgqjJrOuqMW%252FvwAC.png%3Falt=media%26token=38b573f6-14f7-4853-9507-09ecbeba0449&width=768&dpr=1&quality=100&sign=f49fc563612cacede325f6830ab9a2bf74a7600eed531fae2b7846fa9ec96431){ align=left }
+3. Next, go to the Bot page and in the Privileged Gateway Intents allow Server members intent and Message content intent
+![Step3](https://docs.sourcefactory.eu/~gitbook/image?url=https:%2F%2F799349702-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FrczaiIR8LCIvnID1U1Ty%252Fuploads%252FRZoSOcV1yBrj8iTJcNzp%252FPhnY.png%3Falt=media%26token=76b7b7f5-7167-4a4b-92a8-c09b1b1fc72e&width=768&dpr=1&quality=100&sign=0b037d6f478444837ed4e2e82ecd73201df509b5b6ee517f114e91880828dd0a){ align=left }
+4. Next, go to the OAuth2 page 
+![Step4](https://docs.sourcefactory.eu/~gitbook/image?url=https:%2F%2F799349702-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FrczaiIR8LCIvnID1U1Ty%252Fuploads%252F29rZLgOMe0VsDhplHgRZ%252FYFpi.png%3Falt=media%26token=374152e8-44ee-4139-ba6b-696e5be6d449&width=768&dpr=1&quality=100&sign=5d64a76e0ebd915837318ed9b8468cf7f9ce28f4f6c0c75c3bc4dd35c12cd082){ align=left }
+5. And then go to the OAuth2 URL Generator section and check applications.commands and bot in Scopes and in Bot permissions check Administrator
+![Step5](https://docs.sourcefactory.eu/~gitbook/image?url=https:%2F%2F799349702-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FrczaiIR8LCIvnID1U1Ty%252Fuploads%252FccSU8GUmwKsl317HcqOY%252F2IQWRax.png%3Falt=media%26token=a7345746-29e9-494f-ac8f-c9aa65e2e375&width=768&dpr=1&quality=100&sign=2638a69459d35210e3477179db02d791df2daa659c2effafea3e00337f18e539){ align=left }
+![Step5-b](https://docs.sourcefactory.eu/~gitbook/image?url=https:%2F%2F799349702-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FrczaiIR8LCIvnID1U1Ty%252Fuploads%252FN7rXHqjYlawgGIV3doR2%252FhFvp.png%3Falt=media%26token=0079f077-4996-4ad8-906a-03d96e1975e2&width=768&dpr=1&quality=100&sign=af0b3de43200fddad3782bfe5bf05faf4302440b9b671c15f4a138a022cb3edb){ align=left }
+
+6. Then just copy the Generated URL and paste it into your browser to invite the bot to your Discord server.
+![Step6](https://docs.sourcefactory.eu/~gitbook/image?url=https:%2F%2F799349702-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FrczaiIR8LCIvnID1U1Ty%252Fuploads%252FojAZUPHcjmgqjJrOuqMW%252FvwAC.png%3Falt=media%26token=38b573f6-14f7-4853-9507-09ecbeba0449&width=768&dpr=1&quality=100&sign=f49fc563612cacede325f6830ab9a2bf74a7600eed531fae2b7846fa9ec96431){ align=left }

@@ -46,6 +46,12 @@ Admins can type `!maps` in chat and it will bring up a menu of all the maps for 
 
 At the end of the map (if time runs out or win conditions are met) it a vote will show to choose a map from the current mod.
 
+!!! note "Tip - Map Filesizes"
+    Be mindful when using custom maps, that file sizes vary. While I try and find the most optimized versions of maps, some maps can be a big as 2GB(sometimes more!). This is a new game engine, and some mappers are still learning. Some maps also just simply have a higher asset complexity.
+
+    You can find the server's downloaded maps in the \Steam\steamapps\workshop\content\730\ directory.
+
+
 ### Changing game modes
 
 <img alt="Admin change game mode menu" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/assets/admin-modes.png?raw=true&sanitize=true">

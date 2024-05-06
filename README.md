@@ -545,19 +545,42 @@ Admins are managed by [CounterStrikeSharp](https://github.com/roflmuffin/Counter
 
 To see an example of my admins you can look at this file [/custom_files_example/addons/counterstrikesharp/configs/admins.json](https://github.com/kus/cs2-modded-server/blob/master/custom_files_example/addons/counterstrikesharp/configs/admins.json). To set your admins on your own server use this file as a reference and use the [custom files](#custom-files) system to have your own version.
 
+### Use number keys to operate menu instead of typing !1 in chat
+
+If you don't like having to type in chat !number every time you want to use a menu item; you can use this trick to bind the corresponding !number command to the number key. So when you press 1 it will select the 1 option:
+
+_Note: This is assuming you are using the standard binds. You can change accordingly for your own setup._
+
+```
+bind "1" "slot1; css_1"
+bind "2" "slot2; css_2"
+bind "3" "slot3; css_3"
+bind "4" "slot4; css_4"
+bind "5" "slot5; css_5"
+bind "6" "slot6; css_6"
+bind "7" "slot7; css_7"
+bind "8" "slot8; css_8"
+bind "9" "slot9; css_9"
+bind "0" "slot10; css_0"
+```
+
 ### Changing maps
 
-Admins can type `!map` in chat and it will bring up a menu of all the maps for the current mod. When a map is selected it will change the map straight away.
+<img alt="Admin change map menu" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/assets/admin-maps.png?raw=true&sanitize=true">
 
-At the end of the map (if time runs out or win conditions are met) it will automatically choose a map from the current mod.
+Admins can type `!maps` in chat and it will bring up a menu of all the maps for the current mod. When a map is selected it will change the map straight away.
 
-I plan to add more features like !rtv, !nominate etc.
+At the end of the map (if time runs out or win conditions are met) it a vote will show to choose a map from the current mod.
 
 ### Changing game modes
 
-There is no "menu" feature in CS2, so it's all via the chat window or server console.
+<img alt="Admin change game mode menu" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/assets/admin-modes.png?raw=true&sanitize=true">
 
-The easiest way to manage the server is to use the Rcon commands via chat i.e. `!mode dm` will change to deathmatch.
+Admins can type `!modes` in chat and it will bring up a menu of all the game modes. Simply choose one and it will switch to that game mode and change to a default map for that game mode.
+
+The maps in `!maps` will also update to the new game mode when it has changed.
+
+You can also change directly to a game mode with the Rcon commands via chat i.e. `!rcon exec dm` will change to deathmatch.
 
 These are all the available chat commands to change the game mode:
 

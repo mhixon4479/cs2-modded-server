@@ -5,7 +5,7 @@ hide:
 # :material-database-cog-outline: MySQL Setup
 #### Getting Started - Installing MySQL and Logging in
 
-For installing and configuring MySQL, you can follow the steps below, or execute the [MySQL install script](https://.com) and tie the used credentials to the plugins.<br><br>
+For installing and configuring MySQL, you can follow the steps below, or execute the [MySQL install script](https://github.com/mavproductions/cs2-modded-server/blob/master/mysql_db_installs.sh) and tie the used credentials to the plugins.<br><br>
 
 ```
 > sudo apt update

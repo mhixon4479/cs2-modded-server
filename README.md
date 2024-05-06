@@ -1,6 +1,6 @@
 # Counter-Strike 2 (CS2) Modded Dedicated Server
 
-### [Player Server Guide](Player%20Server%20Guide.md) | [Maps Available](#what-maps-are-preconfigured-with-each-mode) | [Modes Available](#changing-game-modes) | [Plugins List](#mods-installed)
+### [Player Server Guide](https://mavproductions.github.io/cs2-modded-server/Player%20Server%20Guide/) | [Maps Available](#what-maps-are-preconfigured-with-each-mode) | [Modes Available](#changing-game-modes) | [Plugins List](#mods-installed)
 
 ## About
 

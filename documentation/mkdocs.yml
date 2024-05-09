@@ -69,6 +69,19 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
+plugins:
+  - mkdocstrings
+  - search
+  - ultralytics:
+      verbose: True
+      enabled: True
+      default_image: "https://github.com/mavproductions/cs2-modded-server/blob/b86a34e2ce4fbf83aed8e032fde123b7b97a74b5/documentation/seo-metaphoto.jpg?raw=true&sanitize=true"
+      add_desc: True
+      add_image: True
+      add_keywords: True
+      add_share_buttons: True
+      add_dates: True
+      add_authors: True
 extra:
   generator: false
 extra_css:

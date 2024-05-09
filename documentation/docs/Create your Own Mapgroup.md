@@ -28,7 +28,7 @@ For my server environment, I would normally add `exec settings/map_voting.cfg` a
 `gamemodes_server.txt`<br>
 In `gamemodes_server.txt`, there are already many mapgroups included by cs2-modded-server. Based on your `game_mode` and `game_type` you might decide to add your new mapgroup to the casual section, competitive section, wingman section, deathmatch section, or the custom section. <br><br>
 
-For my 1.6-Casual Mode, I will put it in casual.
+For my Casual-1.6 Mode, I will put it in casual.
 ![gamemodes_server.txt first step](<https://github.com/mavproductions/cs2-modded-server/blob/4ec72bcdd4b3ce9de7f8e45989e32fd3a0c6e09c/documentation/gamemodes_server%20example.jpg?raw=true&sanitize=true>)<br>
 Scroll down to the bottom of the list and add in the new `mg_1.6-Casual` section by copying another mapgroup and pasting it in and altering the mapgroup order.![adding a mapgroup gif animation](<https://github.com/mavproductions/cs2-modded-server/blob/4ec72bcdd4b3ce9de7f8e45989e32fd3a0c6e09c/documentation/adding%20a%20mg.gif?raw=true&sanitize=true>)<br>
 
@@ -36,7 +36,7 @@ Scroll down to the bottom of the list and add in the new `mg_1.6-Casual` section
 For this file, we just simply add the workshop IDs of any maps that are not used by the server already. <br><br>
 
 `GameModeManager.json`<br>
-We want to add our new mapgroup to the list, following the proper json syntax pattern. In our example scenario, we would just simply add the line `"1.6-Casual",` near the top to keep things alphabetical.<br><br>
+We want to add our new mapgroup to the list, following the proper json syntax pattern. In our example scenario, we would just simply add the line `"Casual-1.6",` near the top to keep things alphabetical.<br><br>
 
 (restart server or change map?)That's it! 😎👍
 

@@ -35,6 +35,7 @@
 						"mg_Casual"			"62"
 						"mg_MiniMaps"		"63"
 						"mg_Deathrun"		"64"
+						"mg_Casual-1.6"		"65"
 					}
 				}
 
@@ -486,6 +487,23 @@
 			"maps"
 			{
 				"de_mirage"		""
+			}
+		}
+		"mg_Casual-1.6"
+		{
+			"name"			"mg_Casual-1.6"
+			"maps"
+			{
+				"workshop/3104677430/as_oilrig"				""
+				"workshop/3215705579/cs_assult_classic"		""
+				"workshop/3213800338/de_aztec_classic"		""
+				"workshop/3078095785/de_dust_classic"		""
+				"workshop/3201205818/de_dust2_classic"		""
+				"workshop/3212419403/cs_italy_classic"		""
+				"workshop/3144773563/cs_militia_classic"	""
+				"workshop/3205793205/de_nuke_classic"		""
+				"workshop/3216844784/cs_office_classic"		""
+				"workshop/3217247541/de_survivor_classic_m"	""
 			}
 		}
 	}

@@ -5,6 +5,8 @@ See [Server Routines](Server Routines.md) slash-command persistence on server re
 
 Or you can quickly run this code with `nohup python3 /customSlashCommands.py &` and refresh your discord client with `CTRL+R`. Your custom slash commands should appear.
 
+![Discord Custom Slash Commands](https://github.com/mavproductions/cs2-modded-server/blob/b16fdab392199397b9e744ed4f9fa10d9f754155/documentation/customSlashCommands.gif?raw=true&sanitize=true)
+
 ``` py title="customSlashCommands.py"
 import discord
 from discord.ext import commands

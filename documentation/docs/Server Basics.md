@@ -68,6 +68,7 @@ sv_rethrow_last_grenade - Throws the last util that was tossed (MatchZy will hav
 ### Popular Administration Tools 
 [Source Admin Tool](https://nightly.link/Drifter321/admintool/workflows/build/master) (Window/Linux/macOS)<br>
 [CS2-RCON-Tool-V2](https://github.com/fpaezf/CS2-RCON-Tool-V2) (Windows)<br>
+[DiscordUtilities](https://github.com/NockyCZ/CS2-Discord-Utilities) (RCON via Discord)<br>
 [Filezilla](https://filezilla-project.org/download.php) (Windows/macOS/Linux)<br>
 [Terimus](https://termius.com/) (Windows/Linux/macOS/Android/iOS)<br>
 [Putty](https://www.putty.org/) (Windows/Linux)<br>
@@ -79,3 +80,66 @@ sv_rethrow_last_grenade - Throws the last util that was tossed (MatchZy will hav
 For CS2 you must open ports `27015-27020`(TCP/UDP)<br>
 
 For CS2-Battle-Bot, you must open port `8000`(TCP) by default.
+
+### CleanerCS2 Example
+```
+// Write regular expression in here to prevent them from being printed in the console
+.*Certificate expires.*
+.*UNEXPECTED LONG FRAME DETECTED.*
+.*generating substitute command \d+ from \d+.*
+.*CQ bloat.*
+.*RemoveArrayElementsOutsideOfArrayMetadataBounds.*
+.*Steam Net connection.*
+.*CloseSteamNetConnection.*
+.*Disassociating NetChan.*
+.*S2C_CHALLENGE.*
+.*C2S_CONNECT.*
+.*CNetworkGameServerBase::.*
+.*setting rate.*
+.*signon state.*
+.*CTMDBG*
+.*Server tick.*
+.*Firing first shot.*
+.*sv:.*
+.*command tick:.*
+.*history:.*
+.*/.+/_start_history_index:.*
+.*empty starved.*
+.*Summary of connection.*
+.*entering linger state.*
+.*generating substitute.*
+.*OnSimulateUserCommands.*
+.*CQ catchup:.*
+.*ClientPutInServer create new player controller.*
+.*Excessive frame time.*
+.*NetChan.*
+.*CTMDBG, team.*
+.*CTMDBG , team.*
+.*:Connect.*
+.*S2C_CONNECTION.*
+.*SV:  Sending full update to client.*
+.*STEAM USERID validated.*
+.*CNavMesh::TestRayToMesh error.*
+.*generating substitute command.*
+.*SteamNetworkingSockets.*
+.*high packet loss detected.*
+.*UDP steamid.*
+.*SV:  Disconnect client.*
+.*SV:  Dropped client.*
+.*CloseSteamNetConnection handle.*
+.*OnPreResetRound.*
+.*Timing info.*
+.*sv tick.*
+.*target time.*
+.*cmd time.*
+.*interp target.*
+.*Lag comp.*
+.*cl \[.*
+.*s0 \[.*
+.*s1 \[.*
+.*OnBufferNotStarved\(\),.*
+.*Steam Net Connection for.*
+.*Disassociating NetChan.*
+.*NETWORK_DISCONNECT_DISCONNECT_BY_USER.*
+.*attack\d_start_history_index:.*
+```

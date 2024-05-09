@@ -90,6 +90,9 @@ These are all the available chat commands to change the game mode:
 | `!mode surf`         | Surf                                                                              |
 | `!mode wingman`      | Wingman (allows more than 4 players)                                              |
 
+!!! note "DiscordBot Custom Slash Commands"
+    Many of these tips for CS2 server player commands are available in the included DiscordBot `.py` files included.
+
 ### !rtv
 
 Players can start a vote to change the map in the current mod by typing `!rtv` in chat.

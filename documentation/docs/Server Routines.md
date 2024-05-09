@@ -3,10 +3,9 @@
 <p>The following Routines are recommended for a seamless server experience:<br></p>
 - **CronTab** 
     - Savednades.json Backup Utility - Backup savednades from MatchZy at midnight<br>
-- **Systemd** 
+- **Systemd/SystemCTL** 
     - Discord Slash Commands - Start on system startup
     - CS2 Server - Start on system startup
-- **SystemCTL**
     - MatchZy Discord Bot
 <br><br>
 ### **Configuring CronJobs**

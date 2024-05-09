@@ -77,9 +77,9 @@ plugins:
       add_desc: True
       add_image: True
       add_keywords: True
-      add_share_buttons: True
+      add_share_buttons: False
       add_dates: True
-      add_authors: True
+      add_authors: False
 extra:
   generator: false
 extra_css:

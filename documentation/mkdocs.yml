@@ -70,8 +70,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.keys
 plugins:
-  - mkdocstrings
-  - search
   - ultralytics:
       verbose: True
       enabled: True

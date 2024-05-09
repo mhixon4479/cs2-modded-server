@@ -26,7 +26,7 @@ theme:
       primary: green
       accent: green
       toggle:
-        icon: material/brightness-7
+        icon: material/lightbulb-on
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -34,7 +34,7 @@ theme:
       primary: green
       accent: green
       toggle:
-        icon: material/brightness-4
+        icon: material/lightbulb-outline
         name: Switch to light mode
 nav:
   - Home: index.md
@@ -49,7 +49,10 @@ nav:
     - Create a DiscordBot: 'Create a DiscordBot.md'
     - Configuring DiscordUtilities: 'Configuring DiscordUtilities.md'
     - Custom Slash Commands: 'Custom Slash Commands.md'
-    - Using Your DiscordBot: 'Using Your DiscordBot.md'
+  - Server Customization:
+    - Server Basics: 'Server Basics.md'
+    - Create your own Mapgroup: 'Create your Own Mapgroup.md'
+    - Testing Plugins: 'Testing Plugins.md'
   - Server Usage:
     - Player Server Guide: 'Player Server Guide.md'
     - Server Quick Connects: 'Quick Connects.md'
@@ -66,7 +69,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
-
+extra:
+  generator: false
 extra_css:
   - stylesheets/extra.css
 extra_javascript:

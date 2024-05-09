@@ -1,7 +1,3 @@
----
-hide:
-  -toc
----
 # :material-folder-cog: Basic Install Guide
 
 ## Host your Server {: #hosting }
@@ -17,7 +13,7 @@ hide:
     !!! note "Tip - GoogleCloudPlatform ENV Variables"
         [Project-based Metadata Environment Variables](https://console.cloud.google.com/compute/metadata)<br>
         or<br>
-        Select your VM instance, click Edit, and scroll-down to metadata section and add your environment variables/values per that instance.
+        **VM-Based Metadata Environment Variables** - Select your VM instance, click Edit, and scroll-down to metadata section and add your environment variables/values per that instance.
 * Secrets
     - Copy [secrets.cfg](https://github.com/mavproductions/cs2-modded-server/blob/master/game/csgo/cfg/secrets.cfg) to `/custom_files/cfg/secrets.cfg`
     - Configure `sv_setsteamaccount` to the ID [here](https://steamcommunity.com/dev/managegameservers)

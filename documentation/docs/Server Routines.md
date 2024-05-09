@@ -6,6 +6,8 @@
 - **Systemd** 
     - Discord Slash Commands - Start on system startup
     - CS2 Server - Start on system startup
+- **SystemCTL**
+    - MatchZy Discord Bot
 <br><br>
 ### **Configuring CronJobs**
 #### Savednades.json - x days backup
@@ -46,4 +48,7 @@ ExecStart=/usr/bin/screen -dmS cs2server /run.sh
 [Install]
 WantedBy=multi-user.target
 ```
-This ensures the CS2 Server reboots after physical server starts. Run `sudo screen -x cs2server` in terminal to see the server console.
+This ensures the CS2 Server reboots after physical server starts. Run `sudo screen -x cs2server` in terminal to see the server console.<br><br>
+#### MatchZy Discord Bot
+\> `sudo systemctl enable docker.service`<br>
+\> `sudo systemctl enable containerd.service`

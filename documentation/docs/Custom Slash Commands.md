@@ -3,7 +3,9 @@
 Included is a pre-made template of bot commands you can change to your liking.
 See [Server Routines](Server Routines.md) slash-command persistence on server reboots.
 
-``` py title="discordUtils.py"
+Or you can quickly run this code with `nohup python3 /customSlashCommands.py &` and refresh your discord client with `CTRL+R`. Your custom slash commands should appear.
+
+``` py title="customSlashCommands.py"
 import discord
 from discord.ext import commands
 

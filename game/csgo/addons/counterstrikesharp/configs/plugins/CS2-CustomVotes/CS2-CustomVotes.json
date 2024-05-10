@@ -16,8 +16,8 @@
           "Text": "{Red}No",
           "Commands": []
         },
-        "10-Man": {
-          "Text": "{Green}10-Man",
+        "Competitive": {
+          "Text": "{Green}Competitive",
           "Commands": [
             "exec comp"
           ]
@@ -26,6 +26,12 @@
           "Text": "{Green}Wingman",
           "Commands": [
             "exec wingman"
+          ]
+        },
+        "Casual-1.6": {
+          "Text": "{Green}Casual-1.6",
+          "Commands": [
+            "exec Casual-1.6.cfg"
           ]
         },
         "Deathmatch": {
@@ -106,12 +112,6 @@
             "exec minigames"
           ]
         },
-        "Mini Maps": {
-          "Text": "{Green}Mini Maps",
-          "Commands": [
-            "exec miniMaps"
-          ]
-        },
         "Deathrun": {
           "Text": "{Green}Deathrun",
           "Commands": [
@@ -141,6 +141,12 @@
           "Commands": [
             "exec soccer"
           ]
+        },
+        "Casual-1.6": {
+          "Text": "{Green}Casual-1.6",
+          "Commands": [
+            "exec Casual-1.6.cfg"
+          ]
         }
       },
       "DefaultOption": "No",
@@ -152,13 +158,11 @@
       }
     },
     {
-      "Command": "10-man",
+      "Command": "comp",
       "CommandAliases": [
-        "comp",
-        "competitive",
-        "10man"
+        "competitive"
       ],
-      "Description": "Switch game mode to 10-Man?",
+      "Description": "Switch game mode to Competitive?",
       "TimeToVote": 30,
       "Options": {
         "Yes": {
@@ -208,10 +212,9 @@
     {
       "Command": "dm",
       "CommandAliases": [
-        "deathmatch",
-        "dm-multicfg"
+        "deathmatch"
       ],
-      "Description": "Switch game mode to DM-MultiCFG?",
+      "Description": "Switch game mode to Deathmatch?",
       "TimeToVote": 30,
       "Options": {
         "Yes": {
@@ -287,10 +290,7 @@
     },
     {
       "Command": "awp",
-      "CommandAliases": [
-        "awpmap",
-        "awp_map"
-      ],
+      "CommandAliases": [],
       "Description": "Switch game mode to Awp Only?",
       "TimeToVote": 30,
       "Options": {
@@ -315,10 +315,7 @@
     },
     {
       "Command": "aim",
-      "CommandAliases": [
-        "aim_map",
-        "aimmap"
-      ],
+      "CommandAliases": [],
       "Description": "Switch game mode to Aim?",
       "TimeToVote": 30,
       "Options": {
@@ -343,10 +340,7 @@
     },
     {
       "Command": "prefire",
-      "CommandAliases": [
-        "prefireprac",
-        "openprefireprac"
-      ],
+      "CommandAliases": [],
       "Description": "Switch game mode to Prefire?",
       "TimeToVote": 30,
       "Options": {
@@ -397,9 +391,9 @@
       }
     },
     {
-      "Command": "retakes",
+      "Command": "retake",
       "CommandAliases": [
-        "retake"
+        "retakes"
       ],
       "Description": "Switch game mode to Retakes?",
       "TimeToVote": 30,
@@ -426,9 +420,7 @@
     {
       "Command": "prac",
       "CommandAliases": [
-        "practice",
-        "pracmode",
-        "prac-mode"
+        "practice"
       ],
       "Description": "Switch game mode to Practice?",
       "TimeToVote": 30,
@@ -479,9 +471,7 @@
     },
     {
       "Command": "kz",
-      "CommandAliases": [
-        "kreedz"
-      ],
+      "CommandAliases": [],
       "Description": "Switch game mode to KZ?",
       "TimeToVote": 30,
       "Options": {
@@ -555,17 +545,17 @@
       }
     },
     {
-      "Command": "minimaps",
+      "Command": "1.6",
       "CommandAliases": [
-        "mini-maps"
+        "casual-1.6"
       ],
-      "Description": "Switch game mode to Mini Maps?",
+      "Description": "Switch game mode to Casual-1.6?",
       "TimeToVote": 30,
       "Options": {
         "Yes": {
           "Text": "{Green}Yes",
           "Commands": [
-            "exec miniMaps"
+            "exec Casual-1.6.cfg"
           ]
         },
         "No": {
@@ -583,9 +573,7 @@
     },
     {
       "Command": "deathrun",
-      "CommandAliases": [
-        "dr"
-      ],
+      "CommandAliases": [],
       "Description": "Switch game mode to Deathrun?",
       "TimeToVote": 30,
       "Options": {
@@ -667,10 +655,7 @@
     {
       "Command": "hns",
       "CommandAliases": [
-        "hide",
-        "hidenseek",
-        "hideandseek",
-        "hide-and-seek"
+        "hide"
       ],
       "Description": "Switch game mode to Hide n Seek?",
       "TimeToVote": 30,
@@ -704,6 +689,33 @@
           "Text": "{Green}Yes",
           "Commands": [
             "exec soccer"
+          ]
+        },
+        "No": {
+          "Text": "{Red}No",
+          "Commands": []
+        }
+      },
+      "DefaultOption": "No",
+      "Style": "center",
+      "MinVotePercentage": 50,
+      "Permission": {
+        "RequiresAll": false,
+        "Permissions": []
+      }
+    },
+    {
+      "Command": "1.6",
+      "CommandAliases": [
+        "casual-1.6"
+      ],
+      "Description": "Switch game mode to Casual-1.6?",
+      "TimeToVote": 30,
+      "Options": {
+        "Yes": {
+          "Text": "{Green}Yes",
+          "Commands": [
+            "exec Casual-1.6.cfg"
           ]
         },
         "No": {

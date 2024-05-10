@@ -411,7 +411,7 @@ Players can start a vote to change the game mode by typing `!gamemode` in chat.
 
 <img alt="Vote to change game mode" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/assets/vote-gamemode.png?raw=true&sanitize=true">
 
-You can also start a specific game mode vote by typing `!comp`, `!wingman`, `!dm`, `!gg`, `!1v1`, `!awp`, `!aim`, `!prefire`, `!executes`, `!retake`, `!prac`, `!bhop`, `!kz`, `!surf`, `!minigames`, `!deathrun`, `!course`, `!scoutzknivez`, `!hns`, `!soccer`.
+You can also start a specific game mode vote by typing `!comp`, `!wingman`, `1.6`, `!dm`, `!gg`, `!1v1`, `!awp`, `!aim`, `!prefire`, `!executes`, `!retake`, `!prac`, `!bhop`, `!kz`, `!surf`, `!minigames`, `!deathrun`, `!course`, `!scoutzknivez`, `!hns`, `!soccer`.
 
 ### What maps are preconfigured with each mode?
 

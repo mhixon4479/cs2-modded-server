@@ -5,7 +5,8 @@
 **CREATED**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/cfg/mapgroup_settings.cfg`<br>
 **MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/gamemodes_server.txt`<br>
 **MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/subscribed_file_ids.txt`<br>
-**MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/addons/counterstrikesharp/configs/plugins/GameModeManager/GameModeManager.json`<br><br>
+**MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/addons/counterstrikesharp/configs/plugins/GameModeManager/GameModeManager.json`<br>
+**MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/addons/counterstrikesharp/configs/plugins/CS2-CustomVotes/CS2-CustomVotes.json`<br><br>
 
 **Example Scenario** - "CS 1.6 Classic Maps Mode" with only RockTheVote added as a "mode" plugin.
 
@@ -38,6 +39,13 @@ For this file, we just simply add the workshop IDs of any maps that are not used
 `GameModeManager.json`<br>
 We want to add our new mapgroup to the list, following the proper json syntax pattern. In our example scenario, we would just simply add the line `"Casual-1.6",` near the top to keep things alphabetical.<br><br>
 
+`CS2-CustomVotes.json`<br>
+If you wish to create a short-command for your new mapgroup/mode, copy and paste previous use-cases from the included CS2-CustomVotes.json file, and paste to where in the .json you would like your new mapgroup to be included.<br>
+
+!!! note "Tip!"
+    Use a JSON Validator such as [Curious Concept's - JSON Formatter and Validator](https://jsonformatter.curiousconcept.com/) if you are running into errors. If you are using an IDE such as Microsoft Visual Studio, Atom, or Eclipse, it should have built-in json validation.
+
+#### Done!
 (restart server or change map?)That's it! 😎👍
 
 ### TL;DR

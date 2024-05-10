@@ -5,6 +5,7 @@
 **CREATED**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/cfg/mapgroup_settings.cfg`<br>
 **MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/gamemodes_server.txt`<br>
 **MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/subscribed_file_ids.txt`<br>
+**MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/cfg/mods.cfg`<br>
 **MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/addons/counterstrikesharp/configs/plugins/GameModeManager/GameModeManager.json`<br>
 **MODIFIED**&nbsp;&nbsp;&nbsp;&nbsp;`/csgo/addons/counterstrikesharp/configs/plugins/CS2-CustomVotes/CS2-CustomVotes.json`<br><br>
 
@@ -34,7 +35,11 @@ For my Casual-1.6 Mode, I will put it in casual.
 Scroll down to the bottom of the list and add in the new `mg_1.6-Casual` section by copying another mapgroup and pasting it in and altering the mapgroup order.![adding a mapgroup gif animation](<https://github.com/mavproductions/cs2-modded-server/blob/4ec72bcdd4b3ce9de7f8e45989e32fd3a0c6e09c/documentation/adding%20a%20mg.gif?raw=true&sanitize=true>)<br>
 
 `subscribed_file_ids.txt`<br>
-For this file, we just simply add the workshop IDs of any maps that are not used by the server already. <br><br>
+For this file, we just simply add the workshop IDs of any maps that are not used by the server already. <br>
+
+`mods.cfg`<br>
+Add your new mapgroup/mode by simply adding `say "- !rcon exec casual-1.6 - Casual 1.6 mode"`<br>
+
 
 `GameModeManager.json`<br>
 We want to add our new mapgroup to the list, following the proper json syntax pattern. In our example scenario, we would just simply add the line `"Casual-1.6",` near the top to keep things alphabetical.<br><br>

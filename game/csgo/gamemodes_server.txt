@@ -358,6 +358,7 @@
 			"maps"
 			{
 				"workshop/3070198374/ka_soccer_2009"		""
+				"workshop/3238565662/field"					""
 			}
 		}
 		"mg_AWP"
@@ -498,7 +499,7 @@
 				"workshop/3215705579/cs_assult_classic"		""
 				"workshop/3213800338/de_aztec_classic"		""
 				"workshop/3078095785/de_dust_classic"		""
-				"workshop/3201205818/de_dust2_classic"		""
+				"workshop/3070363499/de_dust2_classic"		""
 				"workshop/3212419403/cs_italy_classic"		""
 				"workshop/3144773563/cs_militia_classic"	""
 				"workshop/3205793205/de_nuke_classic"		""

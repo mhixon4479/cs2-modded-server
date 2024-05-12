@@ -44,7 +44,7 @@ async def ping(interaction: discord.Interaction):
                             --> <http://xxxxxxxxxxxxxxxx.duckdns.org/>
                             Redirects you to `steam://connect/xxx.xxx.xxx.xxx:27015/passwordHERE`
                             __**OR**__
-                            --> CS2 Browser -- <https://cs2browser.com/gameserver/134516/nebulanet-cs2-server/>
+                            --> CS2 Browser -- <https://cs2browser.com/gameserver/######/SERVER-HERE/>
                             
                             **DESKTOP SHORTCUT METHOD**
                             https://i.imgur.com/2LBZ3mD.png (Link for pic below)
@@ -232,7 +232,7 @@ async def ping(interaction: discord.Interaction):
 async def ping(interaction: discord.Interaction):
     await interaction.reply(content="""**FAQs**
 **Q**: How do I request server membership?
-**A**: Join NebulaNet Discord (https://discord.gg/inviteCodeHere) and use the /link command in discord. Example `/link https://steamcommunity.com/id/profileIDHERE/`
+**A**: Join N######## Discord (https://discord.gg/inviteCodeHere) and use the /link command in discord. Example `/link https://steamcommunity.com/id/profileIDHERE/`
 
 **Q**: Something weird(missing guns, commands not working, random spikes, admin/map menus not working, etc.) is happening to the server. Any tips?
 **A**: Simply re-running the exec for the gamemode you're on will fix common problems. Ex `!rcon exec aim` while on aim_maps. Some commands on the server can bring the server down unfortunately, due to not enough error-checking. Make sure you type commands in correctly.

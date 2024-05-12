@@ -230,10 +230,11 @@
 			"name"			"mg_Multi1v1-Arena"
 			"maps"
 			{
+				"workshop/3242420753/am_anubis_p"		""
+				"workshop/3179186642/am_garden"			""
 				"workshop/3197575080/am_minecraft_pierdolnik"		""
-				"workshop/3197575080/aim_redline"		""
+				"workshop/3070253400/aim_redline_fp"	""
 				"workshop/3180965466/am_zen"			""
-				"workshop/3070572195/duels_mirage_1x1"		""
 				
 			}
 		}
@@ -379,6 +380,7 @@
 			"maps"
 			{
 				"workshop/3140763900/1v1_hospital"		""
+				"workshop/3222291463/aim_map_classic"	""
 				"workshop/3070260370/aim_map_s2r"		""
 				"workshop/3146122036/freebet_aim_map"	""
 				"workshop/3171874934/aim_inspire"		""
@@ -495,6 +497,7 @@
 			"name"			"mg_Casual-1.6"
 			"maps"
 			{
+				"workshop/3222291463/aim_map"				""
 				"workshop/3104677430/as_oilrig"				""
 				"workshop/3215705579/cs_assult_classic"		""
 				"workshop/3213800338/de_aztec_classic"		""

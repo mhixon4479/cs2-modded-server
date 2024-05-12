@@ -142,4 +142,13 @@ For CS2-Battle-Bot, you must open port `8000`(TCP) by default.
 .*Disassociating NetChan.*
 .*NETWORK_DISCONNECT_DISCONNECT_BY_USER.*
 .*attack\d_start_history_index:.*
-```
+``` 
+<br><br>
+
+### RockTheVote (RTV)
+By default, RockTheVote is disabled on quite a few modes, as it doesn't include extending maps currently by default. You can always use `!extend` with the CustomVotes feature, but this isn't ideal when you're in the middle of a movement map(bhop/kz/surf), team practice, etc.<br>
+To enable RTV, add `css_plugins load "plugins/disabled/RockTheVote/RockTheVote.dll"` to the `mode.cfg` in `csgo/cfg/` directory, as you would for manually adding other plugins that interest you.<br><br>
+
+!!! info "Default plugins"
+    By default, the following plugins load on server bootup and **every** map change: CS2RCON, CustomVotes, DiscordUtilities, ExecAfter, GameModeManager, Map_Configs_Prefix, MultiModGameStateMgr, and SimpleAdmin.<br>
+    Everything else must be declare in `mode.cfg` files in `csgo/cfg` to be explicitly loaded.

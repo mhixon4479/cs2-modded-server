@@ -49,6 +49,7 @@ nav:
     - Create a DiscordBot: 'Create a DiscordBot.md'
     - Configuring DiscordUtilities: 'Configuring DiscordUtilities.md'
     - Custom Slash Commands: 'Custom Slash Commands.md'
+    - CSTV Webhook: 'CSTV Webhook.md'
   - Server Customization:
     - Server Basics: 'Server Basics.md'
     - Create your own Mapgroup: 'Create your Own Mapgroup.md'

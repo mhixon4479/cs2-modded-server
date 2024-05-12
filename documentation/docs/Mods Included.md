@@ -6,6 +6,7 @@ Mod | Version | Developer | Why
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.1` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.8` | [partiusfabaa](https://github.com/partiusfabaa/) | Allows you to s   ads in chat/center/panel. 
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
+[CSTV-Discord](https://github.com/K4ryuu/CS2-GOTV-Discord) | `1.2.5` | [K4ryuu](https://github.com/K4ryuu/) | Discord Webhook message broadcasts with full-match or single round demo uploads to Mega Upload or direct to Discord.
 [CustomRounds](https://github.com/schwarper/cs2-customrounds)| `0.0.8` | [schwarper](https://github.com/schwarper/) | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
 [Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.3` | [NockyCZ](https://github.com/NockyCZ/) | Custom Deathmatch plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
 [Deathrun Manager](https://github.com/leoskiline/cs2-deathrun-manager) | `0.0.8` | [leoskiline](https://github.com/leoskiline/cs2-deathrun-manager/) | Improves Deathrun gameflow.

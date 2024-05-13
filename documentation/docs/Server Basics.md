@@ -1,6 +1,6 @@
 #:material-hammer-screwdriver: Server Basics
 
-### Adding Admins and Admin Groups
+## Adding Admins and Admin Groups
 ``` json title="counterstrikesharp/configs/admins.json"
 {
   "ZoNiCaL": {
@@ -41,31 +41,40 @@
 ``` 
 Or have your users use Discord Utilities and `/link` their accounts so they can obtain proper administrative roles and permissions.
 <br>
-### General List of RCON/Console Commands
-``` 
-bot_add - add bot to server
-bot_kick - kick all bots
-changelevel de_nuke - changes map to de_nuke
-exec configHere - executes a config file residing in /csgo/cfg
-host_workshop_map workshopIDHere - changes map to a workshop map. It will download the map if it isn't present first
-mp_freezetime 5 - Sets frozen buy time to 5 seconds, and then the round starts
-mp_restartgame 1 - Restarts the game in 1 second
-mp_roundtime 60 - Sets round-time to 60 minutes
-mp_startmoney 16000 - Sets start money to 16000
-mp_team_timeout_max 2 - Sets max tactical timeouts per team
-mp_team_timeout_ot_max 1 - Sets max overtime timeouts per team
-mp_team_timeout_time 30 - Sets tactical timeout duration
-mp_technical_timeout_per_team 2 - Sets max technical timeouts per team
-mp_technical_timeout_duration_s 240 - Sets technical timeout duration
-sv_alltalk 0/1 - Allows players to hear the voice communications of the enemy team
-sv_cheats 0/1 - Toggles cheat-mode
-sv_full_alltalk 0/1 - Allows players from any team (including spectators) to speak to and hear eachother over voice chat
-sv_gravity 800 - Sets gravity to default value
-sv_grenade_trajectory_prac_pipreview false/true - Toggle for picture-in-picture util-throw preview
-sv_rethrow_last_grenade - Throws the last util that was tossed (MatchZy will have a .rethrow command already)
-``` 
+## General List of RCON/Console Commands
+Command | Description
+--- | --- 
+bot_add | Adds a single bot
+bot_kick | Kicks all bots
+changelevel `de_map` | Changes the map 
+exec `configHere` | Executes a config in `csgo/cfg/` directory
+host_workshop_map `workshopID`| Changes the map (Workshop)
+hostname `hostNameHere` | Sets server hostname visible in server browser
+mp_freezetime `#` | Sets freezetime during round start
+mp_maxrounds `#` | Sets max rounds per game (default for compeitive is 24)
+mp_restartgame `x` | Restarts round in x second(s)
+mp_roundtime `x` | Sets round-time to x minute(s)
+mp_startmoney 16000 | Sets start money to 16000
+mp_team_timeout_max `2` | Sets max tactical timeouts per team
+mp_team_timeout_ot_max `1` | Sets max overtime timeouts per team
+mp_team_timeout_time `30` | Sets tactical timeout duration
+mp_technical_timeout_per_team `2` | Sets max technical timeouts per team
+mp_technical_timeout_duration_s `240` | Sets technical timeout duration
+mp_warmup_time `x` | Sets warmup time to x second(s)
+mp_warmup_end | Ends warmup
+say `"message here"` | Sends a server broadcast message
+sv_alltalk `0/1` | Allows players to hear the voice communications of the enemy team
+sv_cheats `0/1` | Enables or disables cheats(for noclip, etc.)
+sv_full_alltalk `0/1` | Allows players from any team (including spectators) to speak to and hear eachother over voice chat
+sv_gravity `800` | Sets gravity to default value
+sv_grenade_trajectory_prac_pipreview `0/1` | Toggle for picture-in-picture util-throw preview
+sv_password `passwordHere` | Sets server password
+sv_rethrow_last_grenade | Throws the last util that was tossed (MatchZy will have a `.rethrow` command already)
+tv_enable `0/1` | Toggles CSTV
+tv_record `"CSTV demo name here"` | Starts recording a CSTV demo 
+Find the up-to-date command list [here](https://developer.valvesoftware.com/wiki/List_of_Counter-Strike_2_console_commands_and_variables).
 
-### Popular Administration Tools 
+## Popular Administration Tools 
 [Source Admin Tool](https://nightly.link/Drifter321/admintool/workflows/build/master) (Window/Linux/macOS)<br>
 [CS2-RCON-Tool-V2](https://github.com/fpaezf/CS2-RCON-Tool-V2) (Windows)<br>
 [DiscordUtilities](https://github.com/NockyCZ/CS2-Discord-Utilities) (RCON via Discord)<br>
@@ -76,12 +85,12 @@ sv_rethrow_last_grenade - Throws the last util that was tossed (MatchZy will hav
 [DB Browser for SQLite](https://sqlitebrowser.org/dl/) (Windows/macOS/Linux)<br>
 [Gcloud CLI](https://cloud.google.com/sdk/docs/install) (Windows/macOS/Linux)<br><br>
 
-### Port Forwarding
+## Port Forwarding
 For CS2 you must open ports `27015-27020`(TCP/UDP)<br>
 
 For CS2-Battle-Bot, you must open port `8000`(TCP) by default.
 
-### CleanerCS2 Example
+## CleanerCS2 Example
 ```
 // Write regular expression in here to prevent them from being printed in the console
 .*Certificate expires.*
@@ -145,7 +154,7 @@ For CS2-Battle-Bot, you must open port `8000`(TCP) by default.
 ``` 
 <br><br>
 
-### RockTheVote (RTV)
+## RockTheVote (RTV)
 By default, RockTheVote is disabled on quite a few modes, as it doesn't include extending maps currently by default. You can always use `!extend` with the CustomVotes feature, but this isn't ideal when you're in the middle of a movement map(bhop/kz/surf), team practice, etc.<br>
 To enable RTV, add `css_plugins load "plugins/disabled/RockTheVote/RockTheVote.dll"` to the `mode.cfg` in `csgo/cfg/` directory, as you would for manually adding other plugins that interest you.<br><br>
 

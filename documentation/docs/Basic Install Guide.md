@@ -2,7 +2,10 @@
 
 ## Host your Server {: #hosting }
 * Setup your host server
-    - Forward ports (TCP: `27015-27020,80` -- UDP: `27015-27020`)
+    - Forward ports 
+        - **CS2 Server([SRCDS](https://developer.valvesoftware.com/wiki/Source_Dedicated_Server#Connectivity))** `27015`(TCP/UDP) -`27020`(UDP)
+            - Can change `27015` with SRCDS command-line argument `-port`
+        - **CS2-Battle-Bot** `8000` (TCP) by default
     - Create a user with system-rights (`steam` linux script user default)
     - Configure your SSH Public/Private keys to use with [FileZilla](https://filezilla-project.org/download.php?type=client)/[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)/[Termius](https://termius.com/download/)/[mRemoteNG](https://mremoteng.org/download)/etc.
 * Environment Variables
@@ -48,14 +51,26 @@
                 Map Configs Depend Map Name
 
 ### Environment Variables {: #env-vars }
-    API_KEY         # Located here --> http://steamcommunity.com/dev/apikey
-    IP              # Not required, only for static binding of the IP
-    PORT            # Server Port
-    DUCK_DOMAIN     # Free Dynamic DNS service for readible hostnames for your community via (https://www.duckdns.org/)
-    DUCK_TOKEN      # Access token to update domain when server boots
-    CUSTOM_FOLDER   # File/Folder structure included in the package that overwrites on every server restart, unless you run `run.sh` which loads the server in an as-is state, besides updating the main game.
 
-Inside the `GCP.sh`, and `install.sh`, there are `REPO` and `WSCOLLECTION` environment IDs. Please be aware that setting a collectionID forces the server to batch download all the maps. This can utilize a lot of space, and take a long time on first load.
+Variable | Linux | GCP | Windows | Docker
+--- | --- | --- | --- | ---
+API_KEY <br>[For using steam workshop](http://steamcommunity.com/dev/apikey) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/start.sh#L36) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L41) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/win.ini#L8) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/.env#L3)
+IP | | | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/win.ini#L1) | |
+PORT | | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L47) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/win.ini#L6)| |
+DUCK_DOMAIN | | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L50) | | 
+DUCK_TOKEN | | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L51) | | 
+CUSTOM_FOLDER | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/start.sh#L72) | | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/win.ini#L3) | 
+GIT_REPO | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/install.sh#L8) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L43) | | 
+WS_COLLECTION | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/install.sh#L10) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L45) | | | 
+MAXPLAYERS |[✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/start.sh#L44) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/gcp.sh#L49) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/win.ini#L5) | [✓](https://github.com/mavproductions/cs2-modded-server/blob/7e26e47bc7561888e6b9fa6bfb8515495bb9a518/.env#L2) |
+
+!!! note ""Harden" your variables"
+    For most environment variables, they are formatted as `export DUCK_DOMAIN="${DUCK_DOMAIN:-$(get_metadata DUCK_DOMAIN)}"`
+
+    You can change them to format `export DUCK_DOMAIN="${DUCK_DOMAIN:-blah.duckdns.org}"` 
+    to hard code `blah.duckdns.org` as your duck_domain.
+
+Be aware that setting a collectionID forces the server to batch download all the maps. This can utilize a lot of space, and take a long time on first load.
 
 ### Secrets.cfg {: #secrets }
     RCON_PASSWORD "changeme"  # RCON password for controlling server via console.

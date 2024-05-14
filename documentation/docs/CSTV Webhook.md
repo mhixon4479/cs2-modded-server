@@ -2,7 +2,7 @@
 hide:
   -toc
 ---
-#:octicons-device-camera-video-24: CSTV Webhook
+# :bootstrap-CSTV: CSTV Webhook
 
 ### Getting Started
 After running your server, look for the config `/configs/plugins/CS2-GOTV-Discord/CS2-GOTV-Discord.json`.<br>

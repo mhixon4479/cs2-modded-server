@@ -107,7 +107,7 @@ MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster9
 [Instadefuse](https://github.com/B3none/cs2-instadefuse) | `1.4.3` | [B3none](https://github.com/B3none/) | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. 
 [RockTheVote](https://github.com/abnerfs/cs2-rockthevote) | `1.8.5` | [abnerfs](https://github.com/abnerfs) | General purpose CS2 map voting plugin.
 [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/) | `v0.1.2` | [connercsbn](https://github.com/connercsbn/) | Adds basic administrator functions
-[SharpTimer](https://github.com/DEAFPS/SharpTimer/) | `0.2.5` | [DEAFPS](https://github.com/DEAFPS/) | All-in-One BHop/KZ/Surf/etc timer, movement-unlocker, ranking, and stats plugin
+[SharpTimer](https://github.com/DEAFPS/SharpTimer/) | `0.2.6` | [DEAFPS](https://github.com/DEAFPS/) | All-in-One BHop/KZ/Surf/etc timer, movement-unlocker, ranking, and stats plugin
 [Tags](https://github.com/daffyyyy/CS2-Tags) | `Build 36` | [daffyyyy](https://github.com/daffyyyy/) | Adds Tags to a select group of clients' aliases on the server
 [Whitelist](https://github.com/PhantomYopta/CS2_WhiteList) | `1.0.0` | [PhantomYopta](https://github.com/PhantomYopta/) | Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 

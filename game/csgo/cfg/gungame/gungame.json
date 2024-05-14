@@ -34,7 +34,7 @@
   "MultiKillSound": "sounds/ambient/office/tech_oneshot_08.wav",
   "_comment.MultiKillSound": "Next frag Sound confirmation",
   "ReloadWeapon": false,
-  "_comment.ReloadWeapon": "Auto reload current level weapon on kill (it doesn't work now)",
+  "_comment.ReloadWeapon": "Auto reload current level weapon on kill",
   "AllowLevelUpAfterRoundEnd": false,
   "_comment.AllowLevelUpAfterRoundEnd": "Allows players to level up after a round has ended",
   "AlltalkOnWin": true,
@@ -244,6 +244,8 @@
     "sounds/vo/commander/commander_comment_14.wav"
   ],
   "_comment.KnifeStealSound": "List of sounds for everyone when someone stole a level by knife",
+  "MolotovKillSound": "",
+  "_comment.MolotovKillSound": "Sound for everyone when someone killed my Molotov and stole a level",
   "SpawnDistance": 60.0,
   "ConfigVersion": 1
 }

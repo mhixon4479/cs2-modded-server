@@ -19,11 +19,11 @@ Mod | Version | Developer | Why
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.9` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 MultiModGameStateMgr| `0.0.1` | [audiomaster99](https://github.com/audiomaster99/) | Assisting with game states when the server is empty, and gains a player. Be sure to unload with conflicting plugins (ex. Retakes), and reload plugin switching away from conflicting plugins.
-[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.33` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
+[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.34` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes)| `2.0.4` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.10` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
-[BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `Build 27` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
+[BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer)| `0.0.6` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
 [Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.3` | [B3none](https://github.com/B3none/) | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. 
 [RockTheVote](https://github.com/abnerfs/cs2-rockthevote) | `1.8.5` | [abnerfs](https://github.com/abnerfs) | General purpose CS2 map voting plugin.
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.6` | [DEAFPS](https://github.com/DEAFPS/) | All-in-One BHop/KZ/Surf/etc timer, movement-unlocker, ranking, and stats plugin

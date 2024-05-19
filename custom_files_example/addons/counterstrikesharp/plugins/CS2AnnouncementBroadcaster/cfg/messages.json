@@ -1,0 +1,17 @@
+{
+    "OnCommandMsgs": [
+        {
+            "msg": "Type [GREEN]!modes[NORMAL] to switch server mode. [GREEN]!mode prac[NORMAL] works as well.\u2029Type [GREEN]!maps[NORMAL] for the current mode map list. [GREEN]!map de_inferno[NORMAL] works as well.\u2029\u2029To enter [GREEN]prefire practice[NORMAL] mode, please type [RED]!prefire[NORMAL] while on prefire mode.\u2029Some modes have a [GREEN]!help[NORMAL] chat command for a list of commands.",
+            "cmd": "serverhelp"
+        },
+		{
+            "msg": "Type [GREEN]!modes[NORMAL] to switch server mode. [GREEN]!mode prac[NORMAL] works as well.\u2029Type [GREEN]!maps[NORMAL] for the current mode map list. [GREEN]!map de_inferno[NORMAL] works as well.\u2029\u2029To enter [GREEN]prefire practice[NORMAL] mode, please type [RED]!prefire[NORMAL] while on prefire mode.\u2029Some modes have a [GREEN]!help[NORMAL] chat command for a list of commands.",
+            "cmd": "helpserver"
+        }
+    ],
+   "OnPlayerConnectMsgs": [
+       {
+           "msg": "Type [GREEN]!modes[NORMAL] to switch server mode. [GREEN]!mode prac[NORMAL] works as well.\u2029Type [GREEN]!maps[NORMAL] for the current mode map list. [GREEN]!map de_inferno[NORMAL] works as well.\u2029\u2029To enter [GREEN]prefire practice[NORMAL] mode, please type [RED]!prefire[NORMAL] while on prefire mode.\u2029Some modes have a [GREEN]!help[NORMAL] chat command for a list of commands."
+       }
+   ]
+}

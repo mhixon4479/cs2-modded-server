@@ -253,6 +253,7 @@
 				"workshop/3088973190/bhop_arcturus"		""
 				"workshop/3095219437/bhop_kiwi_cwfx"		""
 				"workshop/3079959870/bhop_omnitopia"		""
+				"workshop/3247326328/bhop_vaporwave"		""
 			}
 		}
 		"mg_KZ"

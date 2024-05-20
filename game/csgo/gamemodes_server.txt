@@ -385,7 +385,7 @@
 				"workshop/3222291463/aim_map_classic"	""
 				"workshop/3070260370/aim_map_s2r"		""
 				"workshop/3146122036/freebet_aim_map"	""
-				"workshop/3171874934/aim_inspire"		""
+				"workshop/3171874934/aim_aspire"		""
 				"workshop/3070923343/fy_pool_day"		""
 				"workshop/3245740485/aim_multigame"		""
 				"workshop/3157627939/aim_valerastan"	""

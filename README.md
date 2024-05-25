@@ -1,7 +1,5 @@
 # Counter-Strike 2 (CS2) Modded Dedicated Server
 
-# RECENT UPDATE BROKE METAMOD AND CSSHARP SUPPORT. WILL POST AN UPDATE AS SOON AS ONE COMES OUT!
-
 ### [Player Server Guide](https://mavproductions.github.io/cs2-modded-server/Player%20Server%20Guide/) | [Maps Available](#what-maps-are-preconfigured-with-each-mode) | [Modes Available](#changing-game-modes) | [Plugins List](#mods-installed)
 
 ## About

@@ -84,7 +84,7 @@ Mod | Version | Developer | Why
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `235` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.1 SDK Update` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
-[Advertisement](https://github.com/partiusfabaa/cs2-advertisement) | `1.0.6.8` | [partiusfabaa](https://github.com/partiusfabaa/) | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
+[AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.3.0` | [Lengrann](https://github.com/lengran) | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon) | `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
 [CSTV-Discord](https://github.com/K4ryuu/CS2-GOTV-Discord) | `1.2.7` | [K4ryuu](https://github.com/K4ryuu/) | Discord Webhook message broadcasts with full-match or single round demo uploads to Mega Upload or direct to Discord.
 [CustomRounds](https://github.com/schwarper/cs2-customrounds) | `0.0.9` | [schwarper](https://github.com/schwarper/) | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
@@ -99,7 +99,7 @@ Mod | Version | Developer | Why
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.11` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster99) | Assisting with game states when the server is empty, and gains a player. Be sure to unload with conflicting plugins (ex. Retakes), and reload plugin switching away from conflicting plugins.
-[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.34` | [lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
+[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.35` | [Lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes) | `2.0.5` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.10` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
@@ -132,7 +132,7 @@ If you want to change the server name, or make any changes to any mod settings u
 
 ### Dynamically creates config files in plugin folder
 
-If a plugin creates a config file in the plugins folder where the dll is (i.e.: `/game/csgo/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json`) it will be deleted when the server starts as the `addons` folder is deleted to make sure old plugins are removed if I removed them. You need to copy this file and your changes to your `/custom_files/` folder so it merges it back in. You would put the example file in `/custom_files/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` and every time the server starts it will merge it back in and you will have your changes.
+If a plugin creates a config file in the plugins folder where the dll is (i.e.: `/game/csgo/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/cfg/messages.json`) it will be deleted when the server starts as the `addons` folder is deleted to make sure old plugins are removed if I removed them. You need to copy this file and your changes to your `/custom_files/` folder so it merges it back in. You would put the example file in `/custom_files/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/cfg/messages.json` and every time the server starts it will merge it back in and you will have your changes.
 
 To generate this directory, you can run the `gcp.sh` script (if on Google Cloud), `install.sh` script on Linux once or on `win.bat` script on Windows where you extracted the mod zip and this is where you would put your custom modifications.
 
@@ -655,13 +655,13 @@ First open terminal and `cd` into the folder where you unzipped the zips i.e.: `
 
 `rsync -rhavz --exclude "._*" --exclude ".DS_Store" --partial --progress --stats ./addons/ /Users/kus/dev/personal/counter-strike/cs2-modded-server/game/csgo/addons/`
 
-### Enable Advertisements
+### Broadcasts
 
-If you want to enable Advertisements on your server load the plugin by putting this `css_plugins load "plugins/disabled/Advertisement/Advertisement.dll"` in one of your `.cfg` files.
+If you want to disable Broadcasts on your server, unload the plugin by putting the directory `/game/csgo/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/` in your disabled folder. If you wish for it to only be used on certain modes. Add `css_plugins unload "CS2 Announcement Broadcaster"` to your `unload_plugins.cfg` and `css_plugins load "plugins/disabled/CS2AnnouncementBroadcaster/CS2AnnouncementBroadcaster.dll"` in your `comp.cfg` (competitive 5vs5 for example).
 
-If you want it to load on every mod on your server, you can put it in your `/custom_files/cfg/custom_all.cfg` file.
+You can also leave it in the `/plugins/disabled` folder and in you can put it in your `/custom_files/cfg/custom_all.cfg` file.
 
-The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` which you would put in `/custom_files/addons/counterstrikesharp/plugins/disabled/Advertisement/advertisement.json` so it is not overwritten.
+The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/cfg/messages.json` which you would put in `/custom_files/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/cfg/messages.json` so it is not overwritten.
 
 ### Using DiscordUtilities
 

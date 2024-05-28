@@ -302,6 +302,13 @@
 				"workshop/3082120895/mg_skeet_multigames_v7"		""
 				"workshop/3076765511/mg_warmcup_headshot"		""
 				"workshop/3083325292/deathrun_iceworld_cs2"		""
+				"workshop/3097973183/mg_lego_minigames"			""
+				"workshop/3188024686/mg_legospace_multigames"		""
+				"workshop/3111582979/mg_multigames_devine_is_french"	""
+				"workshop/3156615586/mg_wl_multigames"			""
+				"workshop/3101960156/mg_swag_multigames_v7_1"		""
+				"workshop/3242033080/mg_pudding_multigames_cs2"		""
+				"workshop/3106085501/mg_saw_v64_cs2"				""
 			}
 		}
 		"mg_Course"

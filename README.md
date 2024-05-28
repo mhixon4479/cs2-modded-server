@@ -138,41 +138,42 @@ To generate this directory, you can run the `gcp.sh` script (if on Google Cloud)
 
 ## Creating an online server
 
-If you are hosting an online server, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers), your server will not run online without this. Put this value in the `STEAM_ACCOUNT` environment variable or create a custom file for `/game/csgo/cfg/secrets.cfg` following the [custom files](#custom-files) steps (`/custom_files/cfg/secrets.cfg`) and set it in `sv_setsteamaccount`.
+If you are hosting an online server, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers), your server will not run online without this. Put this value in the `STEAM_ACCOUNT` environment variable.
 
 You also need to create an [authorization key](http://steamcommunity.com/dev/apikey) which will allow your server to download maps from the workshop. Put this value in the `API_KEY` environment variable.
+
+See all available [environment variables](#environment-variables).
 
 **You must connect to the server from the public IP, not the LAN IP even if you are on the same network. The script logs the public IP `Starting server on XXX.XXX.XXX.XXX:27015`**
 
 ## Creating a LAN server
 
-Create a custom file for `/game/csgo/cfg/env.cfg` following the [custom files](#custom-files) steps (`/custom_files/cfg/env.cfg`) and set `sv_lan` to `1`, `sv_downloadurl` to `""` and `sv_allowdownload` to `1`.
+Set the environment variable `LAN` to `1`.
+
+You also need to create an [authorization key](http://steamcommunity.com/dev/apikey) which will allow your server to download maps from the workshop. Put this value in the `API_KEY` environment variable.
+
+See all available [environment variables](#environment-variables).
 
 ## Environment variables
 
 ### Available via environment variable only
+
+*On Windows set these in `win.ini`.*
 
 Key | Default value | What is it
 --- | --- | ---
 `API_KEY` | `changeme` | To download maps from the workshop, your server needs access to the steam web api. To allow this you'll need an authorization key which you can generate [here](http://steamcommunity.com/dev/apikey)
 `IP` | `` | Not required. Allows the server IP to be set. Useful if a CS2 server needs to be bound to a specific IP address.
 `PORT` | `27015` | Server port
-`TICKRATE` | `128` | Server tickrate MM is 64, Faceit is 128
 `MAXPLAYERS` | `32` | Max player limit
-`DUCK_DOMAIN` | `` | [Duck DNS](https://www.duckdns.org/) domain if you want to utalise the free service to get a domain for your server instead of IP
-`DUCK_TOKEN` | `` | [Duck DNS](https://www.duckdns.org/) access token to update domain when server boots
 `CUSTOM_FOLDER` | `custom_files` | Folder of your own modifications to the mod that mirror the csgo/ structure and overwrite the mode files. More on that [here](#custom-files)
-
-### Can be configured via config file in custom files directory
-
-These values can be set via environment variable or a config file in the custom files directory.
-Copy `/game/csgo/cfg/secrets.cfg` to `/custom_files/cfg/secrets.cfg` and write the values you want and this file will overwrite `/game/csgo/cfg/secrets.cfg` each time the `gcp.sh`/`install.sh` script is ran.
-
-Key | Value | What is it
---- | --- | ---
 `RCON_PASSWORD` | `changeme` | RCON password to control server from console also remotely configure
 `STEAM_ACCOUNT` | `` | To host a server online, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers). Your server will not run online without this
 `SERVER_PASSWORD` | `` | If you want a password protected server
+`LAN` | `0` | If the server is a LAN only server
+`EXEC` | `on_boot.cfg` | Config file to run when server boots. If switching gamemode, it's recommended to do a delay see the example `on_boot.cfg` file
+`DUCK_DOMAIN` | `` | (Linux only) [Duck DNS](https://www.duckdns.org/) domain if you want to utalise the free service to get a domain for your server instead of IP
+`DUCK_TOKEN` | `` | (Linux only) [Duck DNS](https://www.duckdns.org/) access token to update domain when server boots
 
 ### Playing workshop maps/collections
 
@@ -185,6 +186,8 @@ The console command for hosting a workshop collection is `host_workshop_collecti
 ### Setting maps for different game modes
 
 Copy the file `/game/csgo/gamemodes_server.txt` following the [custom files](#custom-files) steps (`/custom_files/gamemodes_server.txt`) and add the maps you want per gamemode. Most gamemodes fall under casual, but I have created unique groups for each mode so adding your own maps is easy by updating this one file.
+
+It isn't required, but you should add the fileid into `/game/csgo/subscribed_file_ids.txt` following the [custom files](#custom-files) steps (`/custom_files/subscribed_file_ids.txt`) so the server keeps it up to date.
 
 ## Running on Google Cloud
 
@@ -315,7 +318,6 @@ export API_KEY="changeme"
 export STEAM_ACCOUNT=""
 export SERVER_PASSWORD=""
 export PORT="27015"
-export TICKRATE="128"
 export MAXPLAYERS="32"
 cd / && curl --silent --output "install.sh" "https://raw.githubusercontent.com/mavproductions/cs2-modded-server/master/install.sh" && chmod +x install.sh && bash install.sh
 ```
@@ -337,7 +339,7 @@ When you join the server you can [change game modes](#changing-game-modes).
 
 Make sure Docker is installed and about 40 GB disk space is free.
 
-You can either Download this repo and extract it to where you want your server (i.e. C:\Server\cs2-modded-server) or use git and clone the repo `git clone git@github.com:mavproductions/cs2-modded-server.git` and run your server from inside of it. This way you can simply git pull updates.
+You can either Download this repo and extract it to where you want your server (i.e. C:\Server\cs2-modded-server) or use git and clone the repo `git clone https://github.com/mavproductions/cs2-modded-server.git` and run your server from inside of it. This way you can simply git pull updates.
 
 - **If setting up for internet server:**
 
@@ -355,7 +357,7 @@ You can either Download this repo and extract it to where you want your server (
 
 Make sure you have **60GB free space**.
 
-You can either [Download this repo](https://github.com/mavproductions/cs2-modded-server/archive/master.zip) and extract it to where you want your server (i.e. `C:\Server\cs2-modded-server`) or use git and clone the repo `git clone git@github.com:mavproductions/cs2-modded-server.git` and run your server from inside of it. This way you can simply `git pull` updates.
+You can either [Download this repo](https://github.com/mavproductions/cs2-modded-server/archive/master.zip) and extract it to where you want your server (i.e. `C:\Server\cs2-modded-server`) or use git and clone the repo `git clone https://github.com/mavproductions/cs2-modded-server.git` and run your server from inside of it. This way you can simply `git pull` updates.
 
 All the following instructions will use the repo folder location as the root.
 
@@ -369,7 +371,11 @@ To download maps from the workshop, your server [needs access](https://developer
 
    Open `\win.ini`
 
-   Set `ip_internet` to your [public ip](http://checkip.amazonaws.com/)
+   Set `IP` to your [public ip](http://checkip.amazonaws.com/)
+
+   Set `STEAM_ACCOUNT` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
+
+   Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
 
    Make sure you [port forward](https://portforward.com/router.htm) on your router TCP: `27015` and UDP: `27015` & `27020` so players can connect from the internet.
 
@@ -377,11 +383,11 @@ To download maps from the workshop, your server [needs access](https://developer
 
 - **If setting up LAN server:**
 
-   Copy `\game\csgo\cfg\env.cfg` to your [custom files](#custom-files) directory `\custom_files\cfg\env.cfg` and set `sv_lan` to `1`
+   Open `\win.ini`
 
-[Add admins](#acessing-admin-menu)
+   Set `LAN` to `1`
 
-Run `win.bat`
+   Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
 
 Accept both Private and Public connections on Windows Firewall.
 
@@ -478,7 +484,7 @@ You can also start a specific game mode vote by typing `!comp`, `!wingman`, `1.6
 
 #### mg_minigames
 
-<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_skeet_multigames_v7.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3082120895">mg_skeet_multigames_v7</a><br><sup><sub>host_workshop_map 3082120895</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_warmcup_headshot.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3076765511">mg_warmcup_headshot</a><br><sup><sub>host_workshop_map 3076765511</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/deathrun_iceworld_cs2.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3083325292">deathrun_iceworld_cs2</a><br><sup><sub>host_workshop_map 3083325292</sub></sup></td></tr></table></td></tr></table>
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_skeet_multigames_v7.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3082120895">mg_skeet_multigames_v7</a><br><sup><sub>host_workshop_map 3082120895</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_warmcup_headshot.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3076765511">mg_warmcup_headshot</a><br><sup><sub>host_workshop_map 3076765511</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/deathrun_iceworld_cs2.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3083325292">deathrun_iceworld_cs2</a><br><sup><sub>host_workshop_map 3083325292</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_lego_minigames.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3097973183">mg_lego_minigames</a><br><sup><sub>host_workshop_map 3097973183</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_legospace_multigames.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3188024686">mg_legospace_multigames</a><br><sup><sub>host_workshop_map 3188024686</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_multigames_devine_is_french.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3111582979">mg_multigames_devine_is_french</a><br><sup><sub>host_workshop_map 3111582979</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_wl_multigames.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3156615586">mg_wl_multigames</a><br><sup><sub>host_workshop_map 3156615586</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_swag_multigames_v7_1.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3101960156">mg_swag_multigames_v7_1</a><br><sup><sub>host_workshop_map 3101960156</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_pudding_multigames_cs2.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3242033080">mg_pudding_multigames_cs2</a><br><sup><sub>host_workshop_map 3242033080</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/mavproductions/cs2-modded-server/blob/assets/images/mg_saw_v64_cs2.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3106085501">mg_saw_v64_cs2</a><br><sup><sub>host_workshop_map 3106085501</sub></sup></td></tr></table></td></tr></table>
 
 #### mg_minimaps
 

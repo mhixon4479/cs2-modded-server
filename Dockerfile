@@ -21,7 +21,6 @@ RUN addgroup steam \
     && useradd -g steam steam \
     && usermod -aG sudo steam
 
-ENV TICKRATE=""
 ENV MAXPLAYERS=""
 ENV API_KEY=""
 ENV STEAM_ACCOUNT=""

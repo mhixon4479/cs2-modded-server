@@ -30,8 +30,9 @@ META_GIT_REPO=$(get_metadata GIT_REPO)
 META_MOD_BRANCH=$(get_metadata MOD_BRANCH)
 META_WS_COLLECTION=$(get_metadata WS_COLLECTION)
 META_PORT=$(get_metadata PORT)
-META_TICKRATE=$(get_metadata TICKRATE)
 META_MAXPLAYERS=$(get_metadata MAXPLAYERS)
+META_LAN=$(get_metadata LAN)
+META_EXEC=$(get_metadata EXEC)
 export RCON_PASSWORD="${META_RCON_PASSWORD:-changeme}"
 export API_KEY="${META_API_KEY:-changeme}"
 export STEAM_ACCOUNT="${STEAM_ACCOUNT:-$(get_metadata STEAM_ACCOUNT)}"
@@ -40,8 +41,9 @@ export MOD_BRANCH="${META_MOD_BRANCH:-master}"
 export WS_COLLECTION="${META_WS_COLLECTION:-3173141529}"
 export SERVER_PASSWORD="${SERVER_PASSWORD:-$(get_metadata SERVER_PASSWORD)}"
 export PORT="${META_PORT:-27015}"
-export TICKRATE="${META_TICKRATE:-128}"
 export MAXPLAYERS="${META_MAXPLAYERS:-32}"
+export LAN="${META_LAN:-0}"
+export EXEC="${META_EXEC:-on_boot.cfg}"
 export DUCK_DOMAIN="${DUCK_DOMAIN:-$(get_metadata DUCK_DOMAIN)}"
 export DUCK_TOKEN="${DUCK_TOKEN:-$(get_metadata DUCK_TOKEN)}"
 export CUSTOM_FOLDER="${CUSTOM_FOLDER:-$(get_metadata CUSTOM_FOLDER)}"
@@ -261,19 +263,6 @@ if [ "${DISTRO_OS}" == "Ubuntu" ]; then
 	fi
 fi
 
-echo "Dynamically writing /home/$user/cs2/game/csgo/cfg/secrets.cfg"
-if [ ! -z "$RCON_PASSWORD" ]; then
-	echo "rcon_password						\"$RCON_PASSWORD\"" > /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-fi
-if [ ! -z "$STEAM_ACCOUNT" ]; then
-	echo "sv_setsteamaccount					\"$STEAM_ACCOUNT\"			// Required for online https://steamcommunity.com/dev/managegameservers" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-fi
-if [ ! -z "$SERVER_PASSWORD" ]; then
-	echo "sv_password							\"$SERVER_PASSWORD\"" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-fi
-echo "" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-echo "echo \"secrets.cfg executed\"" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-
 chown -R ${user}:${user} /home/${user}/cs2
 
 cd /home/${user}/cs2
@@ -309,7 +298,6 @@ echo ./game/bin/linuxsteamrt64/cs2 \
     -console \
     -usercon \
     -autoupdate \
-    -tickrate $TICKRATE \
 	$IP_ARGS \
     -port $PORT \
     +map de_dust2 \
@@ -319,13 +307,16 @@ echo ./game/bin/linuxsteamrt64/cs2 \
 	+host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
-    +mapgroup mg_active
+    +mapgroup mg_active \
+	+sv_lan $LAN \
+	+sv_password $SERVER_PASSWORD \
+	+rcon_password $RCON_PASSWORD \
+	+exec $EXEC
 sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
     -dedicated \
     -console \
     -usercon \
     -autoupdate \
-    -tickrate $TICKRATE \
 	$IP_ARGS \
     -port $PORT \
     +map de_dust2 \
@@ -335,4 +326,8 @@ sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
 	+host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
-    +mapgroup mg_active
+    +mapgroup mg_active \
+	+sv_lan $LAN \
+	+sv_password $SERVER_PASSWORD \
+	+rcon_password $RCON_PASSWORD \
+	+exec $EXEC

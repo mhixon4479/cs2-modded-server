@@ -179,8 +179,7 @@ echo ./game/bin/linuxsteamrt64/cs2 \
     -console \
     -usercon \
     -autoupdate \
-    -tickrate $TICKRATE \
-	$IP_ARGS \
+    $IP_ARGS \
     -port $PORT \
     +map de_dust2 \
     -maxplayers $MAXPLAYERS \
@@ -188,14 +187,17 @@ echo ./game/bin/linuxsteamrt64/cs2 \
 	+sv_setsteamaccount $STEAM_ACCOUNT \
     +game_type 0 \
     +game_mode 0 \
-    +mapgroup mg_active
+    +mapgroup mg_active \
+    +sv_lan $LAN \
+	+sv_password $SERVER_PASSWORD \
+	+rcon_password $RCON_PASSWORD \
+	+exec $EXEC
 
 sudo -u $user /home/steam/cs2/game/bin/linuxsteamrt64/cs2 \
     -dedicated \
     -console \
     -usercon \
     -autoupdate \
-    -tickrate $TICKRATE \
 	$IP_ARGS \
     -port $PORT \
     +map de_dust2 \
@@ -204,4 +206,8 @@ sudo -u $user /home/steam/cs2/game/bin/linuxsteamrt64/cs2 \
 	+sv_setsteamaccount $STEAM_ACCOUNT \
     +game_type 0 \
     +game_mode 0 \
-    +mapgroup mg_active
+    +mapgroup mg_active \
+    +sv_lan $LAN \
+	+sv_password $SERVER_PASSWORD \
+	+rcon_password $RCON_PASSWORD \
+	+exec $EXEC

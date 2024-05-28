@@ -237,19 +237,6 @@ else
     cp -RT cs2-modded-server-${BRANCH}/custom_files/ /home/${user}/cs2/custom_files/
 fi
 
-echo "Dynamically writing /home/$user/cs2/game/csgo/cfg/secrets.cfg"
-if [ ! -z "$RCON_PASSWORD" ]; then
-	echo "rcon_password						\"$RCON_PASSWORD\"" > /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-fi
-if [ ! -z "$STEAM_ACCOUNT" ]; then
-	echo "sv_setsteamaccount					\"$STEAM_ACCOUNT\"			// Required for online https://steamcommunity.com/dev/managegameservers" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-fi
-if [ ! -z "$SERVER_PASSWORD" ]; then
-	echo "sv_password							\"$SERVER_PASSWORD\"" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-fi
-echo "" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-echo "echo \"secrets.cfg executed\"" >> /home/${user}/cs2/game/csgo/cfg/secrets.cfg
-
 echo "Merging in custom files from ${CUSTOM_FILES}"
 cp -RT /home/${user}/cs2/${CUSTOM_FILES}/ /home/${user}/cs2/game/csgo/
 
@@ -290,7 +277,6 @@ echo ./game/bin/linuxsteamrt64/cs2 \
     -console \
     -usercon \
     -autoupdate \
-    -tickrate $TICKRATE \
 	$IP_ARGS \
     -port $PORT \
     +map de_dust2 \
@@ -300,13 +286,16 @@ echo ./game/bin/linuxsteamrt64/cs2 \
 	+host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
-    +mapgroup mg_active
+    +mapgroup mg_active \
+	+sv_lan $LAN \
+	+sv_password $SERVER_PASSWORD \
+	+rcon_password $RCON_PASSWORD \
+	+exec $EXEC
 sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
     -dedicated \
     -console \
     -usercon \
     -autoupdate \
-    -tickrate $TICKRATE \
 	$IP_ARGS \
     -port $PORT \
     +map de_dust2 \
@@ -316,4 +305,8 @@ sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
 	+host_workshop_collection ${WS_COLLECTION} \
     +game_type 0 \
     +game_mode 0 \
-    +mapgroup mg_active
+    +mapgroup mg_active \
+	+sv_lan $LAN \
+	+sv_password $SERVER_PASSWORD \
+	+rcon_password $RCON_PASSWORD \
+	+exec $EXEC

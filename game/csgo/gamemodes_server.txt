@@ -158,9 +158,10 @@
 				"de_nuke"			""
 				"de_overpass"		""
 				"de_vertigo"		""
+				"ar_shoots"			""
+				"ar_baggage"		""
 				"workshop/3085490518/gd_rialto"		""
 				"workshop/3070550406/de_safehouse"		""
-				"workshop/3070552133/ar_shoots"		""
 				"workshop/3219506727/de_lake"		""
 				"workshop/3070581293/de_bank"		""
 				"workshop/3070612859/de_shortdust"		""
@@ -198,6 +199,7 @@
 				"workshop/3088183343/fun_bounce"		""
 				"workshop/3109232789/gg_simpsons_vs_flanders_v2"		""
 				"workshop/3112806723/cs_facingworlds-99"		""
+				"workshop/3093088534/nuketown"				""
 			}
 		}
 		"mg_GunGame"
@@ -205,19 +207,19 @@
 			"name"			"mg_GunGame"
 			"maps"
 			{
+				"ar_shoots"			""
+				"ar_baggage"		""
 				"workshop/3070923343/fy_pool_day"		""
 				"workshop/3070238628/fy_iceworld"		""
 				"workshop/3072640420/daymare"		""
 				"workshop/3070348309/aim_theorem"		""
 				"workshop/3070550406/de_safehouse"		""
-				"workshop/3070552133/ar_shoots"		""
 				"workshop/3219506727/de_lake"		""
 				"workshop/3070581293/de_bank"		""
 				"workshop/3088183343/fun_bounce"		""
 				"workshop/3082605693/1v1aim_map_longdustversion_d"		""
 				"workshop/3070291913/ar_churches_s2r"		""
 				"workshop/3082113929/aim_ag_texture_city_advanced"		""
-				"workshop/3080973179/traningoutside"		""
 				"workshop/3086555291/shipment_version_1_0"		""
 				"workshop/3074961197/aim_ag_texture2"		""
 				"workshop/3095778105/aim_ag_texture_jungle"		""
@@ -332,9 +334,9 @@
 				"workshop/3070451616/mg_sky_realm_v3"		""
 			}
 		}
-		"mg_deathrun"
+		"mg_Deathrun"
 		{
-			"name"			"mg_deathrun"
+			"name"			"mg_Deathrun"
 			"maps"
 			{
 				"workshop/3164611860/deathrun_playground"		""
@@ -383,7 +385,7 @@
 				"workshop/3166593524/awp_japan_neon_cs"		""
 			}
 		}
-				"mg_AimMap"
+		"mg_AimMap"
 		{
 			"name"			"mg_AimMap"
 			"maps"

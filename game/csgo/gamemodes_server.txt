@@ -518,6 +518,7 @@
 				"workshop/3213800338/de_aztec_classic"		""
 				"workshop/3078095785/de_dust_classic"		""
 				"workshop/3070363499/de_dust2_classic"		""
+				"workshop/3172269001/de_inferno_classic"	""
 				"workshop/3212419403/cs_italy_classic"		""
 				"workshop/3144773563/cs_militia_classic"	""
 				"workshop/3205793205/de_nuke_classic"		""

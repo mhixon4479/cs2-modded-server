@@ -367,8 +367,6 @@ To download maps from the workshop, your server [needs access](https://developer
 
 - **If setting up internet server:**
 
-   Copy `\game\csgo\cfg\secrets.cfg` to your [custom files](#custom-files) directory `\custom_files\cfg\secrets.cfg` and set `sv_setsteamaccount` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
-
    Open `\win.ini`
 
    Set `IP` to your [public ip](http://checkip.amazonaws.com/)

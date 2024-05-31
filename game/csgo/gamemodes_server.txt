@@ -284,9 +284,11 @@
 			"name"			"mg_Surf"
 			"maps"
 			{
+				"workshop/3255589335/surf_aquaflow"		""
 				"workshop/3076153623/surf_kitsune"		""
 				"workshop/3073875025/surf_utopia_njv"		""
 				"workshop/3070321829/surf_beginner"		""
+				"workshop/3255525511/surf_inui"			""
 				"workshop/3076980482/surf_mesa_revo"		""
 				"workshop/3080544577/surf_deathstar"		""
 				"workshop/3082548297/surf_rookie"		""

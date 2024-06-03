@@ -1,13 +1,13 @@
 {
   "tags": {
-	"76561197982702431": {
-      "prefix": "{Purple}[ServerOp] ",
+	"#css/admin": {
+      "prefix": "[{DarkRed}ServerOp{White}] ",
       "nick_color": "{Gold}",
       "message_color": "",
       "scoreboard": ""
     },
-    "#css/admin": {
-      "prefix": "{Blue}[Member] ",
+    "#css/members": {
+      "prefix": "[{Blue}Member{White}] ",
       "nick_color": "{Gold}",
       "message_color": "",
       "scoreboard": ""

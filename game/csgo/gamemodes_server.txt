@@ -398,7 +398,6 @@
 				"workshop/3146122036/freebet_aim_map"	""
 				"workshop/3171874934/aim_aspire"		""
 				"workshop/3070923343/fy_pool_day"		""
-				"workshop/3245740485/aim_multigame"		""
 				"workshop/3157627939/aim_valerastan"	""
 				"workshop/3177201515/aim_anubis"		""
 				"workshop/3165438553/aim_deaglepark"	""

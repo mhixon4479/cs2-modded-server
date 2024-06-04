@@ -5,7 +5,7 @@
   "Use Custom Variables": true,
   "Date Format": "yyyy-MM-dd HH:mm:ss",
   "Database Connection": {
-    "Host": "example.com",
+    "Host": "localhost",
     "Port": xxxx,
     "User": "dbUserHere",
     "Database": "dbNameHere",
@@ -15,7 +15,7 @@
     "Update Status": true,
     "Status": 1,
     "Activity Type": 0,
-    "Activity Text": "{Server.Mode} on {Server.MapName} ({Server.OnlinePlayers}/{Server.MaxPlayers})"
+    "Activity Text": "[Server.Mode] on {Server.MapName} ({Server.OnlinePlayers}/{Server.MaxPlayers})"
   },
   "Link System": {
     "Enabled": true,
@@ -69,150 +69,156 @@
     "Server.Mode": [
       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Vanilla",
-        "ReplacementValue": "Vanilla"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Prefire]",
+        "ReplacementValue": "Prefire on "
       },
       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Prefire",
-        "ReplacementValue": "Prefire"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Prac]",
+        "ReplacementValue": "Prac on "
       },
-      {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Prac",
-        "ReplacementValue": "Prac"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Surf]",
+        "ReplacementValue": "Surf on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Surf",
-        "ReplacementValue": "Surf"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Retakes]",
+        "ReplacementValue": "Retakes on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Retakes",
-        "ReplacementValue": "Retakes"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [KZ]",
+        "ReplacementValue": "KZ on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "KZ",
-        "ReplacementValue": "KZ"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [BHop]",
+        "ReplacementValue": "BHop on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "BHop",
-        "ReplacementValue": "BHop"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Casual]",
+        "ReplacementValue": "Casual on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Casual",
-        "ReplacementValue": "Casual"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Casual-1.6]",
+        "ReplacementValue": "Casual-1.6 on "
       },
-	   {
+       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "AWP",
-        "ReplacementValue": "AWP Maps"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Deathrun]",
+        "ReplacementValue": "Deathrun on "
       },
-	   {
+       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Deathrun",
-        "ReplacementValue": "Deathrun"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [AWP]",
+        "ReplacementValue": "AWP_ on "
       },
-	   {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "AIM",
-        "ReplacementValue": "AWP Maps"
-      },
-	    {
-        "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "DM-MultiCFG",
-        "ReplacementValue": "DM-MultiCFG"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [DM-MultiCFG]",
+        "ReplacementValue": "DM-MultiCFG on "
       },
 	    {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Executes",
-        "ReplacementValue": "Executes"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [DM-Valve]",
+        "ReplacementValue": "DM-Valve on "
       },
-	   {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "GunGame",
-        "ReplacementValue": "GunGame"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Executes]",
+        "ReplacementValue": "Executes on "
       },
-	    {
+       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Hide-and-Seek",
-        "ReplacementValue": "Hide-and-Seek"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [GunGame]",
+        "ReplacementValue": "GunGame on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Courses",
-        "ReplacementValue": "Courses"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Hide-and-Seek]",
+        "ReplacementValue": "Hide-and-Seek on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "MiniGames",
-        "ReplacementValue": "MiniGames"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Courses]",
+        "ReplacementValue": "Courses on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "MiniMaps",
-        "ReplacementValue": "MiniMaps"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [MiniGames]",
+        "ReplacementValue": "MiniGames on "
       },
-	   {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "1v1-Arenas",
-        "ReplacementValue": "1v1-Arenas"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [MiniMaps]",
+        "ReplacementValue": "MiniMaps on "
       },
-	   {
+       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "ScoutzKnives",
-        "ReplacementValue": "ScoutzKnives"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [1v1-Arenas]",
+        "ReplacementValue": "1v1-Arenas on "
       },
-	    {
+       {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "SoccerJam",
-        "ReplacementValue": "SoccerJam"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [ScoutzKnives]",
+        "ReplacementValue": "ScoutzKnives on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "Wingman",
-        "ReplacementValue": "Wingman"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [SoccerJam]",
+        "ReplacementValue": "SoccerJam on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "10-Man",
-        "ReplacementValue": "10-Man"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Wingman]",
+        "ReplacementValue": "Wingman on "
       },
-	    {
+        {
         "Value": "{Server.Name}",
-        "Operator": "~",
-        "ValueToCheck": "AIM",
-        "ReplacementValue": "Aim Maps"
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [10-Man]",
+        "ReplacementValue": "10-Man on "
+      },
+        {
+        "Value": "{Server.Name}",
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere [Aim_]",
+        "ReplacementValue": "Aim_ on "
+      },
+		{
+        "Value": "{Server.Name}",
+        "Operator": "==",
+        "ValueToCheck": "hostnameHere",
+        "ReplacementValue": ""
       }
     ]
   },
-  "Debug Messages": true,
+  "Debug Messages": false,
   "ConfigVersion": 1
 }

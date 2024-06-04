@@ -9,6 +9,7 @@
       "Deathmatch/1.0.0": {
         "dependencies": {
           "CounterStrikeSharp.API": "1.0.228",
+          "DeathmatchAPI": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -539,6 +540,11 @@
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
         }
+      },
+      "DeathmatchAPI/1.0.0": {
+        "runtime": {
+          "DeathmatchAPI.dll": {}
+        }
       }
     }
   },
@@ -883,6 +889,11 @@
       "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+    },
+    "DeathmatchAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

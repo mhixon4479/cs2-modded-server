@@ -671,6 +671,10 @@ The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/CS2A
 
 DiscordUtilities is enabled by default. I have left it enabled as I find it useful, and relatively straight-forward to setup. [Here](https://docs.sourcefactory.eu/cs2-free-plugins/discord-utilities) is a setup guide for installing to your discord, along with the optional MySQL DB linking, which I recommend for administrating community-led servers. You can remove modules as you please.
 
+### RockTheVote (RTV)
+
+RockTheVote is currently configured to only be used on modes where map extending isn't generally required (Casual, Multi1v1-Arenas, GunGame, Retakes, etc.). Currently RTV doesn't support extending map by `x` rounds/minutes, so modes like Surf, KZ, BHop, and other modes where time requirements are player(s) dependent, are disabled. Enable on all modes by simply adding `css_plugins load "plugins/disabled/RockTheVote/RockTheVote.dll"` to `/custom_files/cfg/custom_all.cfg`.
+
 ### Enable Whitelist so only a list of people can play
 
 If you want to enable a whitelist on your server load the plugin by putting this `css_plugins load "plugins/disabled/WhiteList/WhiteList.dll"` in one of your `.cfg` files.
